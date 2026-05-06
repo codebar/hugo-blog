@@ -210,4 +210,4 @@ lychee --version
 
 ## License
 
-[Your license here]
+This project is licensed under the [MIT License](LICENSE).
