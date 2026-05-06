@@ -203,10 +203,26 @@ lychee --version
 
 ## Contributing
 
-1. Create a new branch for your changes
-2. Run `make check-links` before committing
-3. Test locally with `make serve`
-4. Submit a pull request
+1. **Fork the repository** on GitHub
+2. **Clone your fork** locally:
+   ```bash
+   git clone https://github.com/YOUR-USERNAME/codebar-hugo-blog.git
+   cd codebar-hugo-blog
+   ```
+3. **Create a new branch** for your changes:
+   ```bash
+   git checkout -b my-feature-branch
+   ```
+4. **Make your changes** and test locally:
+   - Run `make check-links` before committing
+   - Test with `make serve`
+5. **Commit and push** to your fork:
+   ```bash
+   git add .
+   git commit -m "description of changes"
+   git push origin my-feature-branch
+   ```
+6. **Submit a pull request** from your fork to the main repository
 
 ## License
 
