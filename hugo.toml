@@ -27,3 +27,9 @@ theme = 'codebar-simple'
 [params]
   author = 'codebar'
   description = 'A blog about codebar, diversity in tech, and our community'
+
+# Enable raw HTML in markdown content
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
