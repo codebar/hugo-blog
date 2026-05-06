@@ -6,7 +6,12 @@
   </header>
   
   <div class="post-content">
-    {{ .Content }}
+    {{ $custom := .Resources.Get "custom.html" }}
+    {{ if $custom }}
+      {{ $custom.Content | safeHTML }}
+    {{ else }}
+      {{ .Content }}
+    {{ end }}
   </div>
 </article>
 {{ end }}
