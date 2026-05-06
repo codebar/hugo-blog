@@ -1,7 +1,7 @@
 baseURL = 'https://blog.codebar.io'
-languageCode = 'en-US'
+locale = 'en-US'
 title = 'codebar Blog'
-theme = 'codebar-simple'
+theme = 'codebar-fresh'
 
 [menus]
   [[menus.main]]

@@ -1,0 +1,69 @@
+{{ define "main" }}
+
+<div class="container">
+  <header style="margin-bottom: var(--space-8);">
+    <h1>{{ .Title }}</h1>
+    {{ with .Content }}
+    <div style="margin-top: var(--space-4); max-width: var(--measure-normal);">
+      {{ . }}
+    </div>
+    {{ end }}
+  </header>
+  
+  {{ $posts := .Pages }}
+  
+  {{ if eq (len $posts) 0 }}
+    <div class="empty-state">
+      <p>No posts found.</p>
+    </div>
+  {{ else }}
+    <ul class="post-list" role="list">
+      {{ range $posts }}
+      <li class="post-list-item" style="padding: var(--space-6) 0;">
+        <article>
+          <a href="{{ .RelPermalink }}" class="post-list-link">
+            <h2 class="post-list-title" style="font-size: var(--text-2xl);">{{ .Title }}</h2>
+            <div class="post-list-meta">
+              <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+                {{ .Date.Format "January 2, 2006" }}
+              </time>
+              {{ with .Params.author }}
+              <span aria-hidden="true"> · </span>
+              <span>{{ . }}</span>
+              {{ end }}
+              {{ with .Params.tags }}
+              <span aria-hidden="true"> · </span>
+              <span>{{ delimit . ", " }}</span>
+              {{ end }}
+            </div>
+            {{ with .Summary }}
+            <p style="margin-top: var(--space-3); color: var(--color-text-secondary); max-width: var(--measure-normal);">
+              {{ . | plainify | truncate 160 }}
+            </p>
+            {{ end }}
+          </a>
+        </article>
+      </li>
+      {{ end }}
+    </ul>
+    
+    {{/* Pagination */}}
+    {{ if gt .Paginator.TotalPages 1 }}
+    <nav aria-label="Pagination" style="margin-top: var(--space-10); display: flex; justify-content: center; gap: var(--space-4);">
+      {{ if .Paginator.HasPrev }}
+      <a href="{{ .Paginator.Prev.URL }}" class="button">← Previous</a>
+      {{ end }}
+      
+      <span style="padding: 0.75rem 1.5rem; color: var(--color-text-tertiary);">
+        Page {{ .Paginator.PageNumber }} of {{ .Paginator.TotalPages }}
+      </span>
+      
+      {{ if .Paginator.HasNext }}
+      <a href="{{ .Paginator.Next.URL }}" class="button">Next →</a>
+      {{ end }}
+    </nav>
+    {{ end }}
+  {{ end }}
+</div>
+
+{{ end }}

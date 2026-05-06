@@ -1,0 +1,40 @@
+{{ define "main" }}
+
+<article class="container">
+  <header style="margin-bottom: var(--space-8); max-width: var(--measure-wide);">
+    <h1 style="font-size: var(--text-3xl); margin-bottom: var(--space-4);">{{ .Title }}</h1>
+    
+    <div class="featured-post-meta" style="margin-bottom: var(--space-6);">
+      <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+        {{ .Date.Format "January 2, 2006" }}
+      </time>
+    </div>
+  </header>
+  
+  <div class="post-content" style="max-width: var(--measure-wide);">
+    {{ with .Resources.Get "custom.html" }}
+      {{ .Content | safeHTML }}
+    {{ end }}
+  </div>
+  
+  {{/* Navigation */}}
+  <nav aria-label="Post navigation" style="margin-top: var(--space-10); display: flex; justify-content: space-between; gap: var(--space-4);">
+    {{ with .PrevInSection }}
+    <a href="{{ .RelPermalink }}" style="text-decoration: none;">
+      <span style="display: block; font-size: var(--text-sm); color: var(--color-text-tertiary); margin-bottom: var(--space-1);">← Previous</span>
+      <span style="font-weight: 500;">{{ .Title }}</span>
+    </a>
+    {{ else }}
+    <span></span>
+    {{ end }}
+    
+    {{ with .NextInSection }}
+    <a href="{{ .RelPermalink }}" style="text-align: right; text-decoration: none;">
+      <span style="display: block; font-size: var(--text-sm); color: var(--color-text-tertiary); margin-bottom: var(--space-1);">Next →</span>
+      <span style="font-weight: 500;">{{ .Title }}</span>
+    </a>
+    {{ end }}
+  </nav>
+</article>
+
+{{ end }}

@@ -1,0 +1,13 @@
+name = "codebar-fresh"
+license = "MIT"
+licenselink = "https://github.com/codebar/blog/blob/main/LICENSE"
+description = "A fresh, accessible Hugo theme for the codebar blog"
+homepage = "https://blog.codebar.io"
+demosite = "https://blog.codebar.io"
+tags = ["blog", "accessible", "minimal", "community"]
+features = ["accessible", "responsive", "fast"]
+min_version = "0.146.0"
+
+[author]
+  name = "codebar"
+  homepage = "https://codebar.io"

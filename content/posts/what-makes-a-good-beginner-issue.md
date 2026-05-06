@@ -5,6 +5,7 @@ comments: true
 author: Kriszta Matyi
 author_email: matyi.kriszta@gmail.com
 tags: ["[open", "source,", "software,", "codebar,", "contributions,", "beginners,", "git,", "Github]"]
+summary: "Tips for project maintainers: how to create welcoming issues for first-time contributors. Small tasks, clear context, and responsive guidance matter."
 ---
 
 In the days leading up to our 24 Pull Requests event, we asked the community to submit good, beginner-friendly issues they found on Github for our students to work on during the event. Our 24 Pull Requests themed event is a day of helping beginner coders get started in contributing to open source software. The most common question we got was what constitutes a good beginner open source issue? The question is valid, especially from the perspective of a seasoned developer who can make sense of very specific jargon and can understand other developers' intentions from a few brief sentences. That isn’t the case for a complete beginner. As someone who was once a beginner - some would say still is - I think I can give some tips on what kind of issues helped me get started with open source and what kind of issues might suit other beginners.

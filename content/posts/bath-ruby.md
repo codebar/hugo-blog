@@ -5,6 +5,7 @@ comments: true
 author: Kriszta Matyi
 author_email: matyi.kriszta@gmail.com
 tags: ["bath", "ruby", "conference"]
+summary: "Highlights from the first Bath Ruby Conference: inspiring talks from Sandi Metz, Katrina Owen, and Saron Yitbarek on learning, legacy code, and supporting each other as developers."
 ---
 
 If you happened to be in Bath last Friday, 13th of March, you would have seen a host of Ruby developers from the UK and beyond descend upon the ancient city for the first ever [Bath Ruby Conference](http://2015.bathruby.org/) held at the Assembly Halls (chandeliers and all!). Such a fantastic event could not be missed, so went along for a full day of talks, learning and socialising.

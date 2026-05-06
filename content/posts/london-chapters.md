@@ -5,6 +5,7 @@ comments: true
 author: Kimberley Cook, Kriszta Matyi
 author_email: kimberleycook91@gmail.com, matyi.kriszta@gmail.com
 tags: ["codebar", "south-london", "west-london", "london"]
+summary: "London expands to three chapters: Central, South, and now West London. More workshops to make learning to code accessible across the city."
 ---
 
 Thanks to your enthusiasm, codebar London has expanded rapidly in the past couple of months. I’m sure you have noticed the waiting list getting longer every week and the number of attendees per event rising steadily lately. Not only that, London is a massive city with students and coaches living scattered around it’s area, with some people having to travel up to an hour to attend certain workshops. This obviously is not an ideal situation as we want our workshops to be easily accessible by the most number of students, with a number of attendees at each workshop that is still manageable by us (the organisers) and is not a hindrance to learning (taking too long to organiser ourselves, etc...). 

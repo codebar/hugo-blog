@@ -4,6 +4,7 @@ date: 2015-02-22T15:19:28Z
 comments: true
 author: Codebar
 tags: ["london", "trans-code"]
+summary: "Supporting Trans*Code: a beginner-friendly hackday bringing together trans, non-binary, and ally coders to build solutions for transgender communities."
 ---
 
 We are happy to announce our support for the [Trans*Code hackday](http://trans-code.org) that will take place in London in March.

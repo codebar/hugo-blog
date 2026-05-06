@@ -5,6 +5,7 @@ comments: true
 author: Kimberley Cook
 author_email: kimberleycook91@gmail.com
 tags: ["codebar", "south-london", "development"]
+summary: "The first South London codebar launches at Pact Coffee HQ. A lightning talk on coffee tech, followed by two hours of hands-on coding."
 ---
 
 Last Wednesday saw 24 students and 12 coaches attend the first ever South London Codebar at [Pact Coffee HQ](https://www.pactcoffee.com). The structure of the event was the same as normal, a lightning talk followed by a 2 hour workshop, this time just south of the River Thames.

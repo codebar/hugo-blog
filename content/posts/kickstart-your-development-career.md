@@ -5,6 +5,7 @@ comments: true
 author: Kriszta Matyi
 author_email: matyi.kriszta@gmail.com
 tags: ["workshop", "codebar", "development", "career"]
+summary: "Practical advice from Najaf Ali's workshop: building tech skills, creating industry influence, and landing your first developer job."
 ---
 
 On the 16th of March a small group of aspiring developers came together at the [GoCardless](https://gocardless.com/) offices in London for an evening event on how to [Kickstart Your Development Career](http://codebar.io/courses/kickstart-your-developer-career). The workshop, run by [Najaf Ali](https://twitter.com/alinajaf), was a three hour long presentation filled with practical knowledge and helpful tips on how to get your first job in web development.

@@ -5,6 +5,7 @@ comments: true
 author: Rosa Fox
 author_email: rosafox89@gmail.com
 tags: ["conference", "responsive", "web", "design", "brighton"]
+summary: "Twelve codebar Brighton students joined the final Responsive Day Out. Talks on accessibility, progressive enhancement, and designing for every device."
 ---
 
 Friday 19th June was a brilliant day, partly because of the glorious sunshine and partly because 12 codebar Brighton students spent the day at the 3rd and final Responsive Day Out ‘The Final Breakpoint’ thanks to ticket giveaways from the lovely people at [Clearleft](http://clearleft.com/).

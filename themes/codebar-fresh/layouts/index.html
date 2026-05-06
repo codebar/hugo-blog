@@ -1,0 +1,152 @@
+{{ define "main" }}
+
+{{ $posts := where site.RegularPages "Type" "posts" }}
+{{ $featured := $posts | first 1 }}
+{{ $recent := $posts | after 1 | first 5 }}
+
+<div class="container">
+  
+  {{/* Empty State */}}
+  {{ if eq (len $posts) 0 }}
+    <div class="empty-state">
+      <h2 class="empty-state-title">No posts yet</h2>
+      <p>Check back soon for stories from the codebar community.</p>
+      <a href="https://codebar.io" class="button button-primary" target="_blank" rel="noopener noreferrer">
+        Learn more about codebar →
+      </a>
+    </div>
+  
+  {{/* Single Post State */}}
+  {{ else if eq (len $posts) 1 }}
+    {{ with index $posts 0 }}
+    <article class="featured-post">
+      <a href="{{ .RelPermalink }}" class="featured-post-link" aria-labelledby="featured-title">
+        {{ with .Params.featured_image }}
+        <img 
+          src="{{ . | relURL }}" 
+          alt="" 
+          class="featured-post-image"
+          loading="eager"
+          width="1200"
+          height="675"
+        >
+        {{ end }}
+        
+        <div class="featured-post-content">
+          <h1 id="featured-title" class="featured-post-title">{{ .Title }}</h1>
+          
+          <div class="featured-post-meta">
+            <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+              {{ .Date.Format "January 2, 2006" }}
+            </time>
+            {{ with .Params.author }}
+            <span class="separator" aria-hidden="true">·</span>
+            <span>{{ . }}</span>
+            {{ end }}
+          </div>
+          
+          <div class="featured-post-excerpt">
+            <p>
+              {{ with .Params.summary }}
+                {{ . | truncate 320 }}
+              {{ else }}
+                {{ with .Summary }}
+                  {{ . | plainify | truncate 320 }}
+                {{ else }}
+                  Read the full story →
+                {{ end }}
+              {{ end }}
+            </p>
+          </div>
+        </div>
+      </a>
+    </article>
+    {{ end }}
+  
+  {{/* Default State: Featured + Recent Posts */}}
+  {{ else }}
+    
+    {{/* Featured Post */}}
+    {{ with index $featured 0 }}
+    <article class="featured-post">
+      <a href="{{ .RelPermalink }}" class="featured-post-link" aria-labelledby="featured-title">
+        {{ with .Params.featured_image }}
+        <img 
+          src="{{ . | relURL }}" 
+          alt="" 
+          class="featured-post-image"
+          loading="eager"
+          width="1200"
+          height="675"
+        >
+        {{ end }}
+        
+        <div class="featured-post-content">
+          <h1 id="featured-title" class="featured-post-title">{{ .Title }}</h1>
+          
+          <div class="featured-post-meta">
+            <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+              {{ .Date.Format "January 2, 2006" }}
+            </time>
+            {{ with .Params.author }}
+            <span class="separator" aria-hidden="true">·</span>
+            <span>{{ . }}</span>
+            {{ end }}
+          </div>
+          
+          <div class="featured-post-excerpt">
+            <p>
+              {{ with .Params.summary }}
+                {{ . | truncate 320 }}
+              {{ else }}
+                {{ with .Summary }}
+                  {{ . | plainify | truncate 320 }}
+                {{ else }}
+                  Read the full story →
+                {{ end }}
+              {{ end }}
+            </p>
+          </div>
+        </div>
+      </a>
+    </article>
+    {{ end }}
+    
+    {{/* Recent Posts */}}
+    {{ if gt (len $recent) 0 }}
+    <section class="recent-posts" aria-labelledby="recent-posts-heading">
+      <h2 id="recent-posts-heading" class="recent-posts-heading">More posts</h2>
+      
+      <ul class="post-list" role="list">
+        {{ range $recent }}
+        <li class="post-list-item">
+          <a href="{{ .RelPermalink }}" class="post-list-link">
+            <h3 class="post-list-title">{{ .Title }}</h3>
+            <div class="post-list-meta">
+              <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+                {{ .Date.Format "January 2, 2006" }}
+              </time>
+              {{ with .Params.author }}
+              <span aria-hidden="true"> · </span>
+              <span>{{ . }}</span>
+              {{ end }}
+            </div>
+          </a>
+        </li>
+        {{ end }}
+      </ul>
+    </section>
+    {{ end }}
+    
+    {{/* Archive Link */}}
+    <div class="archive-link">
+      <a href="{{ "/posts" | relURL }}" class="button button-primary">
+        View all posts
+      </a>
+    </div>
+    
+  {{ end }}
+  
+</div>
+
+{{ end }}

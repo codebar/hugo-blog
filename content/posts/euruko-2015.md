@@ -4,6 +4,7 @@ date: 2015-12-14T22:35:50Z
 comments: true
 author: Jen Persson
 tags: ["euruko", "conference", "2015", "ruby", "europe", "programming"]
+summary: "Highlights from EuRuKo 2015 in Salzburg: live coding music, Commodore 64 programming, origami algorithms, and Matz on Ruby's future."
 ---
 
 Salzburg and the Sound of Music are traditionally inseparable, but there was little traditional about the sound of music in the Salzburg Congress hall in the middle of October.
