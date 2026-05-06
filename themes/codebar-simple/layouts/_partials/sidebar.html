@@ -1,0 +1,15 @@
+<nav>
+  <ul>
+    {{ $currentPage := . }}
+    {{ $allPages := where site.RegularPages "Kind" "page" }}
+    {{ range $allPages }}
+      {{ $path := .File.Path }}
+      {{ if not (or (in $path "post-1") (in $path "post-2") (in $path "post-3")) }}
+      <li>
+        <a href="{{ .Permalink }}" {{ if eq $currentPage . }}class="active"{{ end }}>{{ .Title }}</a>
+      </li>
+      {{ end }}
+    {{ end }}
+    <li class="codebar-link"><i class="fa fa-arrow-left"></i><a href="https://codebar.io">codebar.io</a></li>
+  </ul>
+</nav>

@@ -1,0 +1,4 @@
+{{ define "main" }}
+<h1 class="post-title">{{ .Title }}</h1>
+{{ .Content }} {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }} {{
+end }}
