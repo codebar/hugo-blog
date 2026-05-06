@@ -11,11 +11,11 @@ Last Wednesday saw 24 students and 12 coaches attend the first ever South London
 
 The lightning talk was given by Tony To, tech lead at Pact Coffee, about... you guessed it Pact Coffee. He gave us an insight into what life is like at Pact and the journey the coffee goes through, from delivery to their HQ to distribution to customers. He also gave us a little introduction into the tech that Pact Coffee use to maintain their website and app, and how a Raspberry Pi powers their distribution printer.
 
-[![Tony To](/images/tony-sl-talk.jpg)]()
+![Tony To](/images/tony-sl-talk.jpg)
 
 Then as normal students and coaches were matched up for the 2 hour workshop.
 
-[![Pact Coffee](/images/pact-coffee.jpg)]() 
+![Pact Coffee](/images/pact-coffee.jpg)
 
 We would like to thank Pact Coffee for donating their venue for this event. And another huge thank you to Hire Space for their generous donation towards this event.
 

@@ -11,7 +11,7 @@ If you happened to be in Bath last Friday, 13th of March, you would have seen a 
 
 [![Bath Ruby Conference 2015](/images/bath-ruby-logo.png)](http://2015.bathruby.org/index.html)
 
-[![codebar organisers at Bath Ruby](/images/bathruby-intro.jpg)]()
+![codebar organisers at Bath Ruby](/images/bathruby-intro.jpg)
 
 Let me tell you, we had an amazing time! We met some of our coding heroes, most notably Sandi Metz, Katrina Owens, Ben Orenstein and Saron Yitbarek (yes, she is equally as nice in real life as she is on the [CodeNewbies](http://www.codenewbie.org/) podcasts). We talked to amazing developers (both novice and more experienced), listened to some truly inspiring talks and had the opportunity to introduce [Codebar](http://codebar.io/) on stage to the 500 strong crowd. We enjoyed an all together lovely, thought provoking day in the beautiful city of Bath.
 

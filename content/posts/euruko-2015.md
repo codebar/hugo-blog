@@ -8,7 +8,7 @@ tags: ["euruko", "conference", "2015", "ruby", "europe", "programming"]
 
 Salzburg and the Sound of Music are traditionally inseparable, but there was little traditional about the sound of music in the Salzburg Congress hall in the middle of October.
 
-[![Salzburg](/images/salzburg.jpeg)]()
+![Salzburg](/images/salzburg.jpeg)
 
 Joseph Wilk ([@josephwilk](https://twitter.com/josephwilk)) was one of the presenters at [EuRuKo 2015](http://www.euruko2015.org/). He gave a talk and demo turning Ruby coding skills into a live performance. 
 
@@ -40,7 +40,7 @@ The keynote speaker was none other than Yukihiro 'Matz' Matsumoto, the chief des
 
 He kicked off the conference with a visionary look at the interesting new stuff that the Ruby Core team is planning to add to Ruby, told through the humour of a Japanese language lesson. To the attendees relief, he also promised compatibility with Ruby 2.0.
 
-[![Yukihiro Matsumoto](/images/matz.jpeg)]()
+![Yukihiro Matsumoto](/images/matz.jpeg)
 
 Some of the more scientific and challenging talks were less Ruby specific: Bradley Grzesiak ([@listrophy](https://twitter.com/listrophy)) spoke about simplifying challenging software problems with rocket science, while Satoshi Tagomori addressed a data analytics service and its Ruby usage.
 
@@ -70,7 +70,7 @@ That spirit is one reason to join a conference but also to join a community or c
 
 Lisa Passing, Tam Eastleigh and Sarah Regan formed the [rubycorns](http://rubycorns.club/jekyll/) in Berlin in 2013, a project group for Ruby beginners to learn and work on an app together. 
 
-[![rubycorns](/images/rubycorns.jpeg)]()
+![rubycorns](/images/rubycorns.jpeg)
 
 "One of the challenges of learning Ruby is keeping motivated, it’s hard to know how to do that as a beginner. The community is great. People are kind and welcoming and excited to teach me."
 
