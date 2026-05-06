@@ -19,26 +19,24 @@ jobs:
         with:
           persist-credentials: false
 
-      - name: Install lychee
-        run: |
-          curl -sSfL https://github.com/lycheeverse/lychee/releases/download/nightly/lychee-nightly-x86_64-unknown-linux-gnu.tar.gz | tar xz
-          sudo mv lychee /usr/local/bin/
-
       - name: Link Checker
         id: lychee
-        run: |
-          mkdir -p lychee
-          make check-links --output-sync=recurse 2>&1 | tee lychee/out.md || true
-          # Set exit code based on lychee output
-          if grep -q "Errors found" lychee/out.md 2>/dev/null || grep -q "\[ERROR\]" lychee/out.md 2>/dev/null; then
-            echo "exit_code=1" >> $GITHUB_OUTPUT
-          else
-            echo "exit_code=0" >> $GITHUB_OUTPUT
-          fi
-        shell: bash
+        uses: lycheeverse/lychee-action@8646ba30535128ac92d33dfc9133794bfdd9b411 # v2
+        with:
+          # Check markdown files in content directory using config file
+          args: |
+            --config .lychee.toml
+            --root-dir .
+            'content/**/*.md'
+          # Don't fail action on broken links (we'll create an issue instead)
+          fail: false
+          # Output format
+          format: markdown
+          # Output file path
+          output: lychee/out.md
 
       - name: Create Issue From File
-        if: steps.lychee.outputs.exit_code == '1'
+        if: steps.lychee.outputs.exit_code != 0
         uses: peter-evans/create-issue-from-file@e8ef132d6df98ed982188e460ebb3b5d4ef3a9cd # v5
         with:
           title: Link Checker Report
