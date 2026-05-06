@@ -1,0 +1,37 @@
+# Lychee configuration file
+# https://lychee.cli.rs/configuration/config.html
+
+# Exclude paths/patterns from checking
+exclude = [
+    # Root-relative images (checked at build time)
+    "^/images/",
+    # File URLs
+    "^file://",
+    # Known problematic/old domains
+    "shutl.com",
+    "makersacademy.com",
+    "hackpad.com",
+    "eventbrite.com",
+    # Twitter blocks crawlers/rate limits
+    "twitter.com",
+    "x.com",
+]
+
+# Accept these status codes
+# 505 = HTTP Version Not Supported (some old servers)
+accept = [200, 201, 202, 203, 204, 301, 302, 303, 307, 308, 403, 429, 505]
+
+# Timeout per request (seconds)
+timeout = 30
+
+# Maximum number of concurrent network requests
+max_concurrency = 10
+
+# Don't check mail addresses
+include_mail = false
+
+# Verbose output (error, warn, info, debug, trace)
+verbose = "warn"
+
+# Cache valid links for 1 day
+max_cache_age = "1d"
