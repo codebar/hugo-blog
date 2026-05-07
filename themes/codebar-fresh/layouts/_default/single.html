@@ -1,10 +1,10 @@
 {{ define "main" }}
 
 <article class="container">
-  <header style="margin-bottom: var(--space-8); max-width: var(--measure-wide);">
-    <h1 style="font-size: var(--text-3xl); margin-bottom: var(--space-4);">{{ .Title }}</h1>
+  <header class="post-header">
+    <h1 class="post-title post-title-lg">{{ .Title }}</h1>
     
-    <div class="featured-post-meta" style="margin-bottom: var(--space-6);">
+    <div class="featured-post-meta post-meta">
       <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
         {{ .Date.Format "January 2, 2006" }}
       </time>
@@ -22,7 +22,7 @@
     <img 
       src="{{ . | relURL }}" 
       alt="" 
-      style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; border-radius: var(--radius-md); margin-bottom: var(--space-6);"
+      class="post-hero-image"
       loading="eager"
       width="1200"
       height="675"
@@ -30,37 +30,37 @@
     {{ end }}
   </header>
   
-  <div class="post-content" style="max-width: var(--measure-normal);">
+  <div class="post-content">
     {{ .Content }}
   </div>
   
   {{/* Tags */}}
   {{ with .Params.tags }}
-  <footer style="margin-top: var(--space-10); padding-top: var(--space-6); border-top: 1px solid var(--color-bg-tertiary);">
-    <h2 style="font-size: var(--text-sm); font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; color: var(--color-text-tertiary); margin-bottom: var(--space-3);">Tags</h2>
-    <div style="display: flex; flex-wrap: wrap; gap: var(--space-2);">
+  <footer class="post-footer">
+    <h2 class="post-footer-heading">Tags</h2>
+    <div class="tag-list">
       {{ range . }}
-      <a href="{{ "/tags/" | relURL }}{{ . | urlize }}" style="display: inline-block; padding: var(--space-2) var(--space-3); background-color: var(--color-bg-secondary); border-radius: var(--radius-sm); font-size: var(--text-sm); text-decoration: none;">{{ . }}</a>
+      <a href="{{ "/tags/" | relURL }}{{ . | urlize }}" class="tag">{{ . }}</a>
       {{ end }}
     </div>
   </footer>
   {{ end }}
   
   {{/* Navigation */}}
-  <nav aria-label="Post navigation" style="margin-top: var(--space-10); display: flex; justify-content: space-between; gap: var(--space-4);">
+  <nav aria-label="Post navigation" class="post-nav">
     {{ with .PrevInSection }}
-    <a href="{{ .RelPermalink }}" style="text-decoration: none;">
-      <span style="display: block; font-size: var(--text-sm); color: var(--color-text-tertiary); margin-bottom: var(--space-1);">← Previous</span>
-      <span style="font-weight: 500;">{{ .Title }}</span>
+    <a href="{{ .RelPermalink }}" class="post-nav-link">
+      <span class="post-nav-label">← Previous</span>
+      <span class="post-nav-title text-wrap">{{ .Title }}</span>
     </a>
     {{ else }}
     <span></span>
     {{ end }}
     
     {{ with .NextInSection }}
-    <a href="{{ .RelPermalink }}" style="text-align: right; text-decoration: none;">
-      <span style="display: block; font-size: var(--text-sm); color: var(--color-text-tertiary); margin-bottom: var(--space-1);">Next →</span>
-      <span style="font-weight: 500;">{{ .Title }}</span>
+    <a href="{{ .RelPermalink }}" class="post-nav-link text-right">
+      <span class="post-nav-label">Next →</span>
+      <span class="post-nav-title text-wrap">{{ .Title }}</span>
     </a>
     {{ end }}
   </nav>
