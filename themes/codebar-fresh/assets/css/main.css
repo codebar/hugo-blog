@@ -519,6 +519,13 @@ a {
   object-fit: cover;
   border-radius: var(--radius-md);
   margin-bottom: var(--space-6);
+  height: auto;
+}
+
+/* Prevent CLS for content images without explicit dimensions */
+.post-content img {
+  max-width: 100%;
+  height: auto;
 }
 
 .post-content {
