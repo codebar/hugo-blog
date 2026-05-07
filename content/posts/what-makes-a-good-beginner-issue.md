@@ -4,7 +4,7 @@ date: 2015-11-20T20:44:35Z
 comments: true
 author: Kriszta Matyi
 author_email: matyi.kriszta@gmail.com
-tags: ["[open", "source,", "software,", "codebar,", "contributions,", "beginners,", "git,", "Github]"]
+tags: ["open source", "software", "codebar", "contributions", "beginners", "git", "github"]
 summary: "Tips for project maintainers: how to create welcoming issues for first-time contributors. Small tasks, clear context, and responsive guidance matter."
 ---
 

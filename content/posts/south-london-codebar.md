@@ -1,24 +1,26 @@
 ---
 title: "South London codebar"
-date: 2015-04-19T12:13:48Z
-comments: true
-author: Kimberley Cook
-author_email: kimberleycook91@gmail.com
-tags: ["codebar", "south-london", "development"]
-summary: "The first South London codebar launches at Pact Coffee HQ. A lightning talk on coffee tech, followed by two hours of hands-on coding."
+date: 2016-11-04T10:54:28.000Z
+author: "codebar"
+tags: ["learn-to-code", "barcode", "become-a-web-developer", "software-development", "diversity-and-inclusion", "london"]
+summary: "Last Wednesday saw 24 students and 12 coaches attend the first ever South London codebar at Pact Coffee HQ."
+original_url: "https://medium.com/the-codelog/south-london-codebar-f82beece5ddc"
 ---
 
-Last Wednesday saw 24 students and 12 coaches attend the first ever South London Codebar at [Pact Coffee HQ](https://www.pactcoffee.com). The structure of the event was the same as normal, a lightning talk followed by a 2 hour workshop, this time just south of the River Thames.
+![](/images/posts/south-london-codebar-hero.jpg)
 
-The lightning talk was given by Tony To, tech lead at Pact Coffee, about... you guessed it Pact Coffee. He gave us an insight into what life is like at Pact and the journey the coffee goes through, from delivery to their HQ to distribution to customers. He also gave us a little introduction into the tech that Pact Coffee use to maintain their website and app, and how a Raspberry Pi powers their distribution printer.
+Last Wednesday saw 24 students and 12 coaches attend the first ever South London codebar at [Pact Coffee HQ](https://www.pactcoffee.com/). The structure of the event was the same as normal, a lightning talk followed by a 2 hours of students and coaches pairing, this time just south of the River Thames.
 
-![Tony To](/images/tony-sl-talk.jpg)
+*Pact Coffee*
+
+The lightning talk was given by Tony To, tech lead at Pact Coffee, about… you guessed it, Pact Coffee. He gave us an insight into what life is like at Pact and the journey the coffee goes through, from delivery to their HQ to distribution to customers. He also gave us a little introduction into the tech that Pact Coffee use to maintain their website and app, and how a Raspberry Pi powers their distribution printer.
 
 Then as normal students and coaches were matched up for the 2 hour workshop.
 
-![Pact Coffee](/images/pact-coffee.jpg)
-
 We would like to thank Pact Coffee for donating their venue for this event. And another huge thank you to Hire Space for their generous donation towards this event.
 
-Without the generous donations of both [Pact](https://www.pactcoffee.com) and [Hire Space](https://hirespace.com) this event would not have happened. If you are a company in South London and would like to sponsor an event, or donate your venue for the evening, then please get in contact at [south-london@codebar.io](mailto:south-london@codebar.io)
+Without the generous donations of both [Pact](https://www.pactcoffee.com/) and [Hire Space](https://hirespace.com/) this event would not have happened. If you are a company in South London and would like to sponsor an event, or donate your venue for the evening, then please get in contact at [south-london@codebar.io](mailto:south-london@codebar.io).
 
+---
+
+[South London codebar](https://medium.com/the-codelog/south-london-codebar-f82beece5ddc) was originally published in [the codelog](https://medium.com/the-codelog) on Medium, where people are continuing the conversation by highlighting and responding to this story.
