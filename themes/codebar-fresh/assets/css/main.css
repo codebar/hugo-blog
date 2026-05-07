@@ -724,3 +724,36 @@ a {
 :focus:not(:focus-visible) {
   outline: none;
 }
+
+/* --------------------------------------------
+   Dark Mode
+   -------------------------------------------- */
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* Inverted background scale - darker */
+    --color-bg-primary: oklch(15% 0.01 250);
+    --color-bg-secondary: oklch(22% 0.015 250);
+    --color-bg-tertiary: oklch(30% 0.02 250);
+
+    /* Inverted text scale - lighter */
+    --color-text-primary: oklch(95% 0.01 250);
+    --color-text-secondary: oklch(80% 0.015 250);
+    --color-text-tertiary: oklch(65% 0.01 250);
+
+    /* Accent - slightly brighter for dark mode visibility */
+    --color-accent: oklch(78% 0.16 250);
+    --color-accent-hover: oklch(82% 0.17 250);
+    --color-accent-subtle: oklch(25% 0.03 250);
+  }
+
+  /* Adjust images for dark mode */
+  img {
+    opacity: 0.9;
+  }
+
+  /* Ensure code blocks and preformatted text remain readable */
+  code, pre {
+    background-color: var(--color-bg-tertiary);
+  }
+}
