@@ -637,6 +637,32 @@ a {
 }
 
 /* --------------------------------------------
+   External Link Indicator
+   -------------------------------------------- */
+
+.external-link::after {
+  content: "↗";
+  display: inline-block;
+  margin-left: 0.25em;
+  font-size: 0.8em;
+  vertical-align: super;
+  line-height: 1;
+}
+
+/* Screen reader only text for external links */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* --------------------------------------------
    Footer
    -------------------------------------------- */
 
