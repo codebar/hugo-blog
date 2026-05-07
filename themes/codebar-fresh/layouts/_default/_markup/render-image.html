@@ -1,0 +1,57 @@
+{{/* Image render hook for accessible markup
+   - Preserves alt text when provided
+   - Adds lazy loading for performance
+   - Wraps in figure when alt text suggests a caption
+   - Sets explicit width/height when available to prevent layout shift
+*/}}
+
+{{ $alt := .Text }}
+{{ $src := .Destination | safeURL }}
+{{ $title := .Title }}
+{{ $page := .Page }}
+
+{{/* Try to get image dimensions if it's a local image */}}
+{{ $img := $page.Resources.GetMatch $src }}
+{{ $width := "" }}
+{{ $height := "" }}
+
+{{ if not $img }}
+  {{ $img = resources.Get $src }}
+{{ end }}
+
+{{ if $img }}
+  {{ $width = $img.Width }}
+  {{ $height = $img.Height }}
+{{ end }}
+
+{{/* Check if this looks like a hero/featured image (first image in content) */}}
+{{ $isFirstImage := false }}
+{{ with $page.RawContent }}
+  {{ if findRE `^!\[` . 1 }}
+    {{ $isFirstImage = true }}
+  {{ end }}
+{{ end }}
+
+{{/* Determine loading strategy: eager for first image, lazy for others */}}
+{{ $loading := "lazy" }}
+{{ if $isFirstImage }}
+  {{ $loading = "eager" }}
+{{ end }}
+
+{{/* If there's a title, use figure/figcaption */}}
+{{ if $title }}
+<figure>
+  <img src="{{ $src }}" 
+       alt="{{ $alt }}" 
+       loading="{{ $loading }}"
+       {{ with $width }}width="{{ . }}"{{ end }}
+       {{ with $height }}height="{{ . }}"{{ end }}>
+  <figcaption>{{ $title }}</figcaption>
+</figure>
+{{ else }}
+<img src="{{ $src }}" 
+     alt="{{ $alt }}" 
+     loading="{{ $loading }}"
+     {{ with $width }}width="{{ . }}"{{ end }}
+     {{ with $height }}height="{{ . }}"{{ end }}>
+{{ end }}

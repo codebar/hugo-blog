@@ -389,6 +389,28 @@ main {
 }
 
 /* --------------------------------------------
+   Text Overflow Protection
+   -------------------------------------------- */
+
+.text-truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.text-wrap {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  hyphens: auto;
+}
+
+/* Prevent long URLs from breaking layout */
+a {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+/* --------------------------------------------
    Homepage: Recent Posts List
    -------------------------------------------- */
 
