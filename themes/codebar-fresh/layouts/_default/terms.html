@@ -1,0 +1,100 @@
+{{ define "main" }}
+
+<div class="container">
+  <header class="list-page-header">
+    <h1>{{ .Title }}</h1>
+    <p class="list-page-intro">
+      Browse all {{ len .Data.Terms }} topics on the codebar blog. 
+      Click any tag to see related posts.
+    </p>
+  </header>
+  
+  {{/* Calculate post counts and sort by popularity */}}
+  {{ $tagData := slice }}
+  {{ range $name, $taxonomy := .Data.Terms }}
+    {{ $tagData = $tagData | append (dict "name" $name "count" $taxonomy.Count "url" $taxonomy.Page.RelPermalink) }}
+  {{ end }}
+  {{ $sortedTags := sort $tagData "count" "desc" }}
+  
+  {{/* Split into popular and remaining */}}
+  {{ $popularTags := first 15 $sortedTags }}
+  {{ $remainingTags := after 15 $sortedTags }}
+  
+  {{/* Popular Tags Section */}}
+  <section class="tags-section" aria-labelledby="popular-tags-heading">
+    <h2 id="popular-tags-heading" class="tags-section-heading">Popular topics</h2>
+    <div class="tags-cloud tags-cloud-large">
+      {{ range $popularTags }}
+      <a href="{{ .url }}" class="tag tag-large" data-count="{{ .count }}">
+        <span class="tag-name">{{ .name }}</span>
+        <span class="tag-badge">{{ .count }}</span>
+      </a>
+      {{ end }}
+    </div>
+  </section>
+  
+  {{/* All Tags Section */}}
+  {{ if gt (len $remainingTags) 0 }}
+  <section class="tags-section" aria-labelledby="all-tags-heading">
+    <h2 id="all-tags-heading" class="tags-section-heading">All topics</h2>
+    <div class="tags-cloud tags-cloud-compact" id="all-tags-cloud">
+      {{ range $remainingTags }}
+      <a href="{{ .url }}" class="tag tag-small" data-count="{{ .count }}">
+        <span class="tag-name">{{ .name }}</span>
+        <span class="tag-badge">{{ .count }}</span>
+      </a>
+      {{ end }}
+    </div>
+    
+    {{ if gt (len $sortedTags) 30 }}
+    <button type="button" class="tags-toggle" id="tags-toggle" aria-expanded="false" aria-controls="all-tags-cloud">
+      <span class="tags-toggle-text">Show all {{ len $remainingTags }} topics</span>
+    </button>
+    {{ end }}
+  </section>
+  {{ end }}
+  
+  {{/* Alternative: Alphabetical list for scanning */}}
+  <section class="tags-section tags-alphabetical" aria-labelledby="alphabetical-heading">
+    <h2 id="alphabetical-heading" class="tags-section-heading">Browse alphabetically</h2>
+    <nav class="tags-alpha-nav" aria-label="Alphabetical tag navigation">
+      {{ range $sortedTags }}
+      <a href="{{ .url }}" class="tag tag-alpha">
+        <span class="tag-name">{{ .name }}</span>
+        <span class="tag-badge">{{ .count }}</span>
+      </a>
+      {{ end }}
+    </nav>
+  </section>
+</div>
+
+<script>
+  // Toggle for showing all tags
+  document.addEventListener('DOMContentLoaded', function() {
+    const toggle = document.getElementById('tags-toggle');
+    const cloud = document.getElementById('all-tags-cloud');
+    
+    if (toggle && cloud) {
+      // Start collapsed if many tags
+      if (cloud.children.length > 20) {
+        cloud.classList.add('tags-cloud-collapsed');
+      }
+      
+      toggle.addEventListener('click', function() {
+        const isExpanded = toggle.getAttribute('aria-expanded') === 'true';
+        
+        if (isExpanded) {
+          cloud.classList.add('tags-cloud-collapsed');
+          toggle.setAttribute('aria-expanded', 'false');
+          toggle.querySelector('.tags-toggle-text').textContent = 'Show all ' + (cloud.children.length) + ' topics';
+        } else {
+          cloud.classList.remove('tags-cloud-collapsed');
+          toggle.setAttribute('aria-expanded', 'true');
+          toggle.querySelector('.tags-toggle-text').textContent = 'Show fewer topics';
+        }
+      });
+    }
+  });
+</script>
+
+{{ end }}

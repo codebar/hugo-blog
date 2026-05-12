@@ -20,46 +20,44 @@
   {{ else if eq (len $posts) 1 }}
     {{ with index $posts 0 }}
     <article class="featured-post">
-      <a href="{{ .RelPermalink }}" class="featured-post-link" aria-labelledby="featured-title">
-        {{ with .Params.featured_image }}
-        <img 
-          src="{{ . | relURL }}" 
-          alt="" 
-          class="featured-post-image"
-          loading="eager"
-          width="1200"
-          height="675"
-        >
+      {{ with .Params.featured_image }}
+      <img 
+        src="{{ . | relURL }}" 
+        alt="" 
+        class="featured-post-image"
+        loading="eager"
+        width="1200"
+        height="675"
+      >
+      {{ end }}
+      
+      <div class="featured-post-content">
+        <h1 class="featured-post-title">
+          <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        </h1>
+        
+        <div class="featured-post-meta">
+          <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+            {{ .Date.Format "January 2, 2006" }}
+          </time>
+          {{ with .Params.author }}
+          <span class="separator" aria-hidden="true">·</span>
+          <span>{{ . }}</span>
+          {{ end }}
+        </div>
+        
+        {{ with .Params.tags }}
+        <div class="featured-post-tags">
+          {{ range . }}
+          <a href="{{ "/tags/" | relURL }}{{ . | urlize }}" class="tag">{{ . }}</a>
+          {{ end }}
+        </div>
         {{ end }}
         
-        <div class="featured-post-content">
-          <h1 id="featured-title" class="featured-post-title">{{ .Title }}</h1>
-          
-          <div class="featured-post-meta">
-            <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
-              {{ .Date.Format "January 2, 2006" }}
-            </time>
-            {{ with .Params.author }}
-            <span class="separator" aria-hidden="true">·</span>
-            <span>{{ . }}</span>
-            {{ end }}
-          </div>
-          
-          <div class="featured-post-excerpt">
-            <p>
-              {{ with .Params.summary }}
-                {{ . | truncate 320 }}
-              {{ else }}
-                {{ with .Summary }}
-                  {{ . | plainify | truncate 320 }}
-                {{ else }}
-                  Read the full story →
-                {{ end }}
-              {{ end }}
-            </p>
-          </div>
+        <div class="featured-post-content-full">
+          {{ .Content }}
         </div>
-      </a>
+      </div>
     </article>
     {{ end }}
   
@@ -69,47 +67,98 @@
     {{/* Featured Post */}}
     {{ with index $featured 0 }}
     <article class="featured-post">
-      <a href="{{ .RelPermalink }}" class="featured-post-link" aria-labelledby="featured-title">
-        {{ with .Params.featured_image }}
-        <img 
-          src="{{ . | relURL }}" 
-          alt="" 
-          class="featured-post-image"
-          loading="eager"
-          width="1200"
-          height="675"
-        >
+      {{ with .Params.featured_image }}
+      <img 
+        src="{{ . | relURL }}" 
+        alt="" 
+        class="featured-post-image"
+        loading="eager"
+        width="1200"
+        height="675"
+      >
+      {{ end }}
+      
+      <div class="featured-post-content">
+        <h1 class="featured-post-title">
+          <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        </h1>
+        
+        <div class="featured-post-meta">
+          <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+            {{ .Date.Format "January 2, 2006" }}
+          </time>
+          {{ with .Params.author }}
+          <span class="separator" aria-hidden="true">·</span>
+          <span>{{ . }}</span>
+          {{ end }}
+        </div>
+        
+        {{ with .Params.tags }}
+        <div class="featured-post-tags">
+          {{ range . }}
+          <a href="{{ "/tags/" | relURL }}{{ . | urlize }}" class="tag">{{ . }}</a>
+          {{ end }}
+        </div>
         {{ end }}
         
-        <div class="featured-post-content">
-          <h1 id="featured-title" class="featured-post-title">{{ .Title }}</h1>
-          
-          <div class="featured-post-meta">
-            <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
-              {{ .Date.Format "January 2, 2006" }}
-            </time>
-            {{ with .Params.author }}
-            <span class="separator" aria-hidden="true">·</span>
-            <span>{{ . }}</span>
-            {{ end }}
-          </div>
-          
-          <div class="featured-post-excerpt">
-            <p>
-              {{ with .Params.summary }}
-                {{ . | truncate 320 }}
-              {{ else }}
-                {{ with .Summary }}
-                  {{ . | plainify | truncate 320 }}
-                {{ else }}
-                  Read the full story →
-                {{ end }}
-              {{ end }}
-            </p>
-          </div>
+        <div class="featured-post-content-full">
+          {{ .Content }}
         </div>
-      </a>
+      </div>
     </article>
+    {{ end }}
+    
+    {{/* Tag Filter - Count and sort by popularity */}}
+    {{ $tagCounts := dict }}
+    {{ range $posts }}
+      {{ range .Params.tags }}
+        {{ $count := index $tagCounts . | default 0 }}
+        {{ $tagCounts = dict . (add $count 1) | merge $tagCounts }}
+      {{ end }}
+    {{ end }}
+    
+    {{/* Convert to slice and sort by count */}}
+    {{ $tagSlice := slice }}
+    {{ range $tag, $count := $tagCounts }}
+      {{ $tagSlice = $tagSlice | append (dict "name" $tag "count" $count) }}
+    {{ end }}
+    {{ $sortedTags := sort $tagSlice "count" "desc" }}
+    {{ $popularTags := first 10 $sortedTags }}
+    {{ $remainingTags := after 10 $sortedTags }}
+    
+    {{ if gt (len $sortedTags) 0 }}
+    <section class="tag-filter" aria-labelledby="tag-filter-heading">
+      <h2 id="tag-filter-heading" class="tag-filter-heading">Browse by topic</h2>
+      
+      <div class="tag-cloud" id="tag-cloud">
+        {{/* Popular tags - always visible */}}
+        {{ range $popularTags }}
+        <a href="{{ "/tags/" | relURL }}{{ .name | urlize }}" class="tag tag-cloud-item">
+          {{ .name }}
+          <span class="tag-count">{{ .count }}</span>
+        </a>
+        {{ end }}
+        
+        {{/* Remaining tags - collapsible */}}
+        {{ if gt (len $remainingTags) 0 }}
+        <div class="tag-cloud-collapsed" id="tag-cloud-more" hidden>
+          {{ range $remainingTags }}
+          <a href="{{ "/tags/" | relURL }}{{ .name | urlize }}" class="tag tag-cloud-item">
+            {{ .name }}
+            <span class="tag-count">{{ .count }}</span>
+          </a>
+          {{ end }}
+        </div>
+        {{ end }}
+      </div>
+      
+      {{ if gt (len $remainingTags) 0 }}
+      <button type="button" class="tag-cloud-toggle" id="tag-toggle" aria-expanded="false" aria-controls="tag-cloud-more">
+        <span class="tag-toggle-text">Show {{ len $remainingTags }} more topics</span>
+        <span class="tag-toggle-icon" aria-hidden="true">+</span>
+      </button>
+      {{ end }}
+    </section>
     {{ end }}
     
     {{/* Recent Posts */}}
@@ -148,5 +197,31 @@
   {{ end }}
   
 </div>
+
+<script>
+  // Tag cloud toggle functionality
+  document.addEventListener('DOMContentLoaded', function() {
+    const toggle = document.getElementById('tag-toggle');
+    const moreTags = document.getElementById('tag-cloud-more');
+    
+    if (toggle && moreTags) {
+      toggle.addEventListener('click', function() {
+        const isExpanded = toggle.getAttribute('aria-expanded') === 'true';
+        
+        if (isExpanded) {
+          moreTags.hidden = true;
+          toggle.setAttribute('aria-expanded', 'false');
+          toggle.querySelector('.tag-toggle-text').textContent = toggle.dataset.showText || 'Show more topics';
+          toggle.querySelector('.tag-toggle-icon').textContent = '+';
+        } else {
+          moreTags.hidden = false;
+          toggle.setAttribute('aria-expanded', 'true');
+          toggle.querySelector('.tag-toggle-text').textContent = 'Show fewer topics';
+          toggle.querySelector('.tag-toggle-icon').textContent = '−';
+        }
+      });
+    }
+  });
+</script>
 
 {{ end }}
