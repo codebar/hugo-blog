@@ -5,6 +5,7 @@ A Hugo-based blog for codebar, migrated from Jekyll.
 ## Prerequisites
 
 - [Hugo](https://gohugo.io/installation/) (v0.146.0 or later)
+- [Node.js](https://nodejs.org/) (v18 or later, for search indexing)
 - [lychee](https://lychee.cli.rs/installation/) (optional, for link checking)
 - Make (optional, for convenience commands)
 
@@ -27,6 +28,29 @@ sudo apt-get install hugo
 **Verify installation:**
 ```bash
 hugo version
+```
+
+### Installing Node.js
+
+Required for search indexing with Pagefind:
+
+**macOS:**
+```bash
+brew install node
+```
+
+**Other platforms:**
+Download from [nodejs.org](https://nodejs.org/) or use your package manager.
+
+**Verify installation:**
+```bash
+node --version
+npm --version
+```
+
+Then install dependencies:
+```bash
+npm install
 ```
 
 ### Installing lychee (optional)
@@ -53,7 +77,12 @@ sudo mv lychee /usr/local/bin/
    cd hugo-blog
    ```
 
-2. **Start the development server:**
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server:**
    ```bash
    hugo server --bind 0.0.0.0 --buildDrafts
    ```
@@ -62,7 +91,12 @@ sudo mv lychee /usr/local/bin/
    make serve
    ```
 
-3. **Open in browser:**
+4. **Build search index (required for search to work):**
+   ```bash
+   make index
+   ```
+
+5. **Open in browser:**
    Visit http://localhost:1313
 
 ## Available Commands
@@ -71,11 +105,14 @@ sudo mv lychee /usr/local/bin/
 
 ```bash
 make help           # Show all available targets
-make build          # Build the site (outputs to public/)
+make build          # Build the site and index for search
+make index          # Index built site with Pagefind (for search)
 make serve          # Run development server
 make check-links    # Check for broken links
 make clean          # Remove build artifacts
 ```
+
+**Note:** Search functionality requires the site to be indexed. Run `make index` after building, or use `make build` which includes indexing automatically.
 
 ### Using Hugo directly
 
@@ -83,8 +120,11 @@ make clean          # Remove build artifacts
 # Development server with live reload
 hugo server --bind 0.0.0.0 --buildDrafts
 
-# Build for production
+# Build for production (without search indexing)
 hugo --gc --minify
+
+# Index for search (run after building)
+npx pagefind --site public
 
 # Build to specific directory
 hugo --destination ./public
@@ -118,11 +158,12 @@ hugo-blog/
 │   ├── images/         # Images
 │   └── _redirects      # Cloudflare Pages redirects
 ├── themes/              # Hugo themes
-│   └── codebar-simple/ # Our custom theme
-├── scripts/             # Helper scripts
+│   └── codebar-fresh/  # Our custom theme
 ├── .lychee.toml        # Link checker config
 ├── hugo.toml           # Site configuration
-└── Makefile            # Convenience commands
+├── Makefile            # Convenience commands
+├── package.json        # Node dependencies (Pagefind)
+└── README.md           # This file
 ```
 
 ## Content Management
@@ -154,15 +195,27 @@ Place images in `static/images/` and reference them with root-relative paths:
 ![Alt text](/images/my-image.jpg)
 ```
 
+## Search
+
+The blog includes full-text search powered by [Pagefind](https://pagefind.app/).
+
+- Click the search icon (🔍) in the header or press `Tab` to focus it
+- Type your query - results appear instantly
+- Click a result to navigate, or press `Escape` to close
+
+**For developers:** Search requires the site to be indexed. This happens automatically when you run `make build`, or manually with `make index`.
+
 ## Deployment
 
 This site is deployed to **Cloudflare Pages**.
 
 ### Build Settings
 
-- **Build command:** `hugo --gc --minify`
+- **Build command:** `make build` (or `hugo --gc --minify && npx pagefind --site public`)
 - **Build output directory:** `/public`
 - **Environment variable:** `HUGO_VERSION=0.146.0`
+
+**Note:** For search to work in production, the build command must include Pagefind indexing.
 
 ### Redirects
 
@@ -171,8 +224,9 @@ Redirects are configured in `static/_redirects` for old Jekyll URLs. See [Cloudf
 ## Migration Notes
 
 - Originally Jekyll (Octopress)
-- 12 posts migrated
-- 46 images copied
+- Migrated to Hugo with custom `codebar-fresh` theme
+- 70+ posts imported from Medium
+- Full-text search added via Pagefind
 - Feed redirected from `/atom.xml` to Hugo's `/index.xml`
 
 ## Troubleshooting
