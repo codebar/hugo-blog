@@ -10,7 +10,7 @@
     {{ end }}
   </header>
   
-  {{ $posts := .Pages }}
+  {{ $posts := .Paginator.Pages }}
   
   {{ if eq (len $posts) 0 }}
     <div class="empty-state">

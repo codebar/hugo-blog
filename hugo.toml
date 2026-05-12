@@ -24,6 +24,9 @@ theme = 'codebar-fresh'
     extended = false
     min = '0.146.0'
 
+[pagination]
+  pagerSize = 20
+
 [params]
   author = 'codebar'
   description = 'A blog about codebar, diversity in tech, and our community'
