@@ -306,8 +306,169 @@ a:focus-visible {
 }
 
 /* --------------------------------------------
-   Main Content
+   Search
    -------------------------------------------- */
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+}
+
+.search-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  background-color: transparent;
+  border: 1px solid var(--color-bg-tertiary);
+  border-radius: var(--radius-md);
+  color: var(--color-text-secondary);
+  cursor: pointer;
+  transition: background-color var(--duration-fast) var(--ease-out-quart),
+              border-color var(--duration-fast) var(--ease-out-quart),
+              color var(--duration-fast) var(--ease-out-quart);
+}
+
+.search-toggle:hover {
+  background-color: var(--color-bg-secondary);
+  border-color: var(--color-accent);
+  color: var(--color-accent);
+}
+
+.search-toggle:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+}
+
+/* Search Dialog */
+.search-dialog {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--space-8) var(--space-4);
+}
+
+.search-dialog[hidden] {
+  display: none;
+}
+
+.search-dialog-overlay {
+  position: absolute;
+  inset: 0;
+  background-color: oklch(0% 0 0 / 0.5);
+  backdrop-filter: blur(4px);
+}
+
+.search-dialog-content {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  max-height: 80vh;
+  background-color: var(--color-bg-primary);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-lg);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.search-dialog-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--space-4) var(--space-5);
+  border-bottom: 1px solid var(--color-bg-tertiary);
+}
+
+.search-dialog-title {
+  font-size: var(--text-lg);
+  font-weight: 600;
+  color: var(--color-text-primary);
+  margin: 0;
+}
+
+.search-dialog-close {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  border-radius: var(--radius-md);
+  color: var(--color-text-tertiary);
+  cursor: pointer;
+  transition: background-color var(--duration-fast) var(--ease-out-quart),
+              color var(--duration-fast) var(--ease-out-quart);
+}
+
+.search-dialog-close:hover {
+  background-color: var(--color-bg-secondary);
+  color: var(--color-text-primary);
+}
+
+.search-dialog-close:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+}
+
+.search-container {
+  padding: var(--space-4) var(--space-5);
+  overflow-y: auto;
+}
+
+/* Pagefind UI Customization */
+.search-container .pagefind-ui {
+  --pagefind-ui-scale: 1;
+  --pagefind-ui-primary: var(--color-accent);
+  --pagefind-ui-text: var(--color-text-primary);
+  --pagefind-ui-background: var(--color-bg-primary);
+  --pagefind-ui-border: var(--color-bg-tertiary);
+  --pagefind-ui-tag: var(--color-bg-secondary);
+  --pagefind-ui-border-width: 1px;
+  --pagefind-ui-border-radius: var(--radius-md);
+  --pagefind-ui-image-border-radius: var(--radius-sm);
+  --pagefind-ui-image-box-ratio: 3 / 2;
+  --pagefind-ui-font: var(--font-body);
+}
+
+.search-container .pagefind-ui__search-input {
+  font-size: var(--text-base);
+  padding: var(--space-3) var(--space-4);
+  border-color: var(--color-bg-tertiary);
+}
+
+.search-container .pagefind-ui__search-input:focus {
+  border-color: var(--color-accent);
+  outline: none;
+  box-shadow: 0 0 0 3px var(--color-accent-subtle);
+}
+
+@media (max-width: 640px) {
+  .search-dialog {
+    padding: var(--space-4);
+  }
+  
+  .search-dialog-content {
+    max-height: 90vh;
+  }
+  
+  .search-dialog-header,
+  .search-container {
+    padding: var(--space-3) var(--space-4);
+  }
+}
+
+/* --------------------------------------------
+   Main Content
+   -------------------------------- ------------ */
 
 main {
   min-height: 50vh;

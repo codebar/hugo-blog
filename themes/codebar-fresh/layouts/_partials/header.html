@@ -4,16 +4,98 @@
       <img src="{{ "logo.png" | relURL }}" alt="{{ site.Title }}" width="148" height="40">
     </a>
     
-    <nav class="site-nav" aria-label="Main navigation">
-      <ul>
-        {{ range site.Menus.main }}
-        <li>
-          <a href="{{ .URL | relURL }}" {{ if $.IsMenuCurrent "main" . }}aria-current="page"{{ end }}>
-            {{ .Name }}
-          </a>
-        </li>
-        {{ end }}
-      </ul>
-    </nav>
+    <div class="header-right">
+      <button type="button" class="search-toggle" id="search-toggle" aria-label="Open search" aria-expanded="false" aria-controls="search-dialog">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <circle cx="11" cy="11" r="8"></circle>
+          <path d="m21 21-4.3-4.3"></path>
+        </svg>
+      </button>
+      
+      <nav class="site-nav" aria-label="Main navigation">
+        <ul>
+          {{ range site.Menus.main }}
+          <li>
+            <a href="{{ .URL | relURL }}" {{ if $.IsMenuCurrent "main" . }}aria-current="page"{{ end }}>
+              {{ .Name }}
+            </a>
+          </li>
+          {{ end }}
+        </ul>
+      </nav>
+    </div>
   </div>
 </header>
+
+{{/* Search Dialog */}}
+<div id="search-dialog" class="search-dialog" hidden>
+  <div class="search-dialog-overlay"></div>
+  <div class="search-dialog-content">
+    <div class="search-dialog-header">
+      <h2 id="search-title" class="search-dialog-title">Search</h2>
+      <button type="button" class="search-dialog-close" id="search-close" aria-label="Close search">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M18 6 6 18"></path>
+          <path d="m6 6 12 12"></path>
+        </svg>
+      </button>
+    </div>
+    <div class="search-container">
+      <link href="/pagefind/pagefind-ui.css" rel="stylesheet">
+      <script src="/pagefind/pagefind-ui.js" type="text/javascript"></script>
+      <div id="search"></div>
+    </div>
+  </div>
+</div>
+
+<script>
+  // Initialize Pagefind UI when dialog opens
+  let searchUI = null;
+  
+  function initSearch() {
+    if (!searchUI && window.PagefindUI) {
+      searchUI = new PagefindUI({
+        element: "#search",
+        showSubResults: true,
+        showImages: false,
+        excerptLength: 15
+      });
+    }
+  }
+  
+  // Search dialog controls
+  const searchToggle = document.getElementById('search-toggle');
+  const searchDialog = document.getElementById('search-dialog');
+  const searchClose = document.getElementById('search-close');
+  const searchOverlay = searchDialog?.querySelector('.search-dialog-overlay');
+  
+  function openSearch() {
+    searchDialog.hidden = false;
+    searchToggle.setAttribute('aria-expanded', 'true');
+    initSearch();
+    // Focus the search input after a short delay
+    setTimeout(() => {
+      const searchInput = searchDialog.querySelector('.pagefind-ui__search-input');
+      searchInput?.focus();
+    }, 100);
+    document.body.style.overflow = 'hidden';
+  }
+  
+  function closeSearch() {
+    searchDialog.hidden = true;
+    searchToggle.setAttribute('aria-expanded', 'false');
+    document.body.style.overflow = '';
+    searchToggle.focus();
+  }
+  
+  searchToggle?.addEventListener('click', openSearch);
+  searchClose?.addEventListener('click', closeSearch);
+  searchOverlay?.addEventListener('click', closeSearch);
+  
+  // Close on Escape key
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && !searchDialog.hidden) {
+      closeSearch();
+    }
+  });
+</script>
