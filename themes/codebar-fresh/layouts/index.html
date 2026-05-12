@@ -168,19 +168,30 @@
       
       <ul class="post-list" role="list">
         {{ range $recent }}
-        <li class="post-list-item">
-          <a href="{{ .RelPermalink }}" class="post-list-link">
-            <h3 class="post-list-title">{{ .Title }}</h3>
-            <div class="post-list-meta">
-              <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
-                {{ .Date.Format "January 2, 2006" }}
-              </time>
-              {{ with .Params.author }}
-              <span aria-hidden="true"> · </span>
-              <span>{{ . }}</span>
+        <li class="post-list-item post-list-item-preview">
+          <article>
+            <a href="{{ .RelPermalink }}" class="post-list-link">
+              <h3 class="post-list-title post-list-title-lg">{{ .Title }}</h3>
+              <div class="post-list-meta">
+                <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+                  {{ .Date.Format "January 2, 2006" }}
+                </time>
+                {{ with .Params.author }}
+                <span aria-hidden="true"> · </span>
+                <span>{{ . }}</span>
+                {{ end }}
+                {{ with .Params.tags }}
+                <span aria-hidden="true"> · </span>
+                <span>{{ delimit . ", " }}</span>
+                {{ end }}
+              </div>
+              {{ with .Summary }}
+              <p class="post-list-excerpt">
+                {{ . | plainify | truncate 160 }}
+              </p>
               {{ end }}
-            </div>
-          </a>
+            </a>
+          </article>
         </li>
         {{ end }}
       </ul>

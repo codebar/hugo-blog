@@ -213,6 +213,7 @@ a:focus-visible {
 
 .button-primary:hover {
   background-color: var(--color-accent-hover);
+  color: oklch(100% 0 0);
   text-decoration: none;
 }
 
