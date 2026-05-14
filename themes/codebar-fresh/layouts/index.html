@@ -85,11 +85,11 @@
         
         <div class="featured-post-meta">
           <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
-            {{ .Date.Format "January 2, 2006" }}
+            Date: {{ .Date.Format "January 2, 2006" }}
           </time>
           {{ with .Params.author }}
           <span class="separator" aria-hidden="true">·</span>
-          <span>{{ . }}</span>
+          <span>Written by: {{ . }}</span>
           {{ end }}
         </div>
         

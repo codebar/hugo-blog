@@ -6,17 +6,21 @@
     
     <div class="featured-post-meta post-meta">
       <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
-        {{ .Date.Format "January 2, 2006" }}
+      Date: {{ .Date.Format "January 2, 2006" }}
       </time>
+      <span class="separator" aria-hidden="true">·</span>
       {{ with .Params.author }}
-      <span class="separator" aria-hidden="true">·</span>
-      <span>{{ . }}</span>
-      {{ end }}
-      {{ with .Params.tags }}
-      <span class="separator" aria-hidden="true">·</span>
-      <span>{{ delimit . ", " }}</span>
+      <span>Written by: {{ . }}</span>
       {{ end }}
     </div>
+
+    {{ with .Params.tags }}
+    <div class="featured-post-tags">
+      {{ range . }}
+      <a href="{{ "/tags/" | relURL }}{{ . | urlize }}" class="tag">{{ . }}</a>
+      {{ end }}
+    </div>
+    {{ end }}
     
     {{ with .Params.featured_image }}
     <img 
