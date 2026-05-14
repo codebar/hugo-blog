@@ -2,7 +2,7 @@
 title: "Chipo Mapondera — Technology Graduate"
 date: 2020-09-15T16:09:21.000Z
 author: "codebar"
-tags: ["learn-to-code", "barcode", "become-a-web-developer", "software-development", "diversity-and-inclusion", "codebar-stories"]
+tags: ["learn-to-code", "codebar", "become-a-web-developer", "software-development", "diversity-and-inclusion", "codebar-stories"]
 summary: "Chipo is a Technology Graduate at The NET-A-PORTER Group. She started attending codebar in 2018 as a student, and after securing her first developer job came back to codebar as a coach in August..."
 original_url: "https://medium.com/codebar-stories/chipo-mapondera-technology-graduate-946d68456276"
 ---

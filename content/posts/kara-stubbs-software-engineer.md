@@ -2,7 +2,7 @@
 title: "Kara Stubbs — Software Engineer"
 date: 2018-03-16T00:37:56.000Z
 author: "codebar"
-tags: ["learn-to-code", "barcode", "become-a-web-developer", "software-development", "diversity-and-inclusion", "codebar-stories"]
+tags: ["learn-to-code", "codebar", "become-a-web-developer", "software-development", "diversity-and-inclusion", "codebar-stories"]
 summary: "Kara is a Software Engineer at MOO, organiser of Queer Code London, ex codebar student now coach, avid table football player and a big Jeff Goldblum fan."
 original_url: "https://medium.com/codebar-stories/kara-stubbs-software-engineer-7b25c4db1d19"
 ---

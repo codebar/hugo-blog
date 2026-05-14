@@ -2,7 +2,7 @@
 title: "Olu Niyi-Awosusi — Software Developer"
 date: 2016-08-15T10:48:52.000Z
 author: "codebar"
-tags: ["learn-to-code", "barcode", "become-a-web-developer", "software-development", "diversity-and-inclusion", "codebar-stories"]
+tags: ["learn-to-code", "codebar", "become-a-web-developer", "software-development", "diversity-and-inclusion", "codebar-stories"]
 summary: "Olu is a junior software developer at Paze and is a regular coach at codebar."
 original_url: "https://medium.com/codebar-stories/olu-niyi-awosusi-software-developer-d879f9c64263"
 ---

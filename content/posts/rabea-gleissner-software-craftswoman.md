@@ -2,7 +2,7 @@
 title: "Rabea Gleissner — Software Craftswoman"
 date: 2016-09-08T08:20:25.000Z
 author: "codebar"
-tags: ["learn-to-code", "barcode", "become-a-web-developer", "software-development", "diversity-and-inclusion", "codebar-stories"]
+tags: ["learn-to-code", "codebar", "become-a-web-developer", "software-development", "diversity-and-inclusion", "codebar-stories"]
 summary: "Rabea is a software craftswoman at 8th Light, a regular coach at codebar, one of the organisers of London's Ladies of Code and a keen photographer."
 original_url: "https://medium.com/codebar-stories/rabea-gleissner-software-craftswoman-fccc4f158d7a"
 ---

@@ -2,7 +2,7 @@
 title: "Charlotte Zhao — Financial Software Developer"
 date: 2016-11-11T10:11:33.000Z
 author: "codebar"
-tags: ["learn-to-code", "barcode", "become-a-web-developer", "software-development", "diversity-and-inclusion", "codebar-stories"]
+tags: ["learn-to-code", "codebar", "become-a-web-developer", "software-development", "diversity-and-inclusion", "codebar-stories"]
 summary: "Charlotte started at Bloomberg as a Relationship Manager before transitioning to Financial Software Developer. She is also one of the organisers of the codebar London chapter."
 original_url: "https://medium.com/codebar-stories/charlotte-zhao-financial-software-developer-dc52fb79dd3d"
 ---

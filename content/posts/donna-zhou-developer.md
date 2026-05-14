@@ -2,7 +2,7 @@
 title: "Donna Zhou — Developer"
 date: 2017-01-04T09:49:18.000Z
 author: "codebar"
-tags: ["learn-to-code", "barcode", "become-a-web-developer", "software-development", "diversity-and-inclusion", "codebar-stories"]
+tags: ["learn-to-code", "codebar", "become-a-web-developer", "software-development", "diversity-and-inclusion", "codebar-stories"]
 summary: "Donna Zhou is a developer who decided to leave the big city for a life in Berlin. She is currently running the codebar Berlin chapter as well as continuing her journey as a developer."
 original_url: "https://medium.com/codebar-stories/donna-zhou-developer-afeb27fd90ea"
 ---

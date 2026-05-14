@@ -2,7 +2,7 @@
 title: "Introducing our new visual identity"
 date: 2016-09-14T14:33:14.000Z
 author: "codebar"
-tags: ["learn-to-code", "barcode", "become-a-web-developer", "software-development", "diversity-and-inclusion", "branding"]
+tags: ["learn-to-code", "codebar", "become-a-web-developer", "software-development", "diversity-and-inclusion", "branding"]
 summary: "The eagled eyed of you might have noticed that in the past few weeks we have been slowly updating assets on our site, our social media channels, and other platforms. We have added new logos and icons, background images, improved copy, and have a fresh new colour palette."
 original_url: "https://medium.com/the-codelog/introducing-our-new-visual-identity-345806f85e1"
 ---

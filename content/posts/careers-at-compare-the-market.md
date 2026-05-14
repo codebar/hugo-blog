@@ -2,7 +2,7 @@
 title: "Careers at Compare the Market"
 date: 2021-02-16T10:28:55.000Z
 author: "codebar"
-tags: ["learn-to-code", "barcode", "become-a-web-developer", "software-development", "diversity-and-inclusion", "careers"]
+tags: ["learn-to-code", "codebar", "become-a-web-developer", "software-development", "diversity-and-inclusion", "careers"]
 summary: "Ahead of our career panel, we sat down with our 4 panelists from Compare the Market to get to know them a little more..."
 original_url: "https://medium.com/the-codelog/careers-at-compare-the-market-143f1310d3c"
 ---

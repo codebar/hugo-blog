@@ -2,7 +2,7 @@
 title: "Anushka Fernando — Senior Data Scientist"
 date: 2021-02-01T13:08:35.000Z
 author: "codebar"
-tags: ["learn-to-code", "barcode", "become-a-web-developer", "software-development", "diversity-and-inclusion", "codebar-stories", "data-science"]
+tags: ["learn-to-code", "codebar", "become-a-web-developer", "software-development", "diversity-and-inclusion", "codebar-stories", "data-science"]
 summary: "Anushka is a Senior Data Scientist at Valtech, a global digital agency focused on business transformation. She started attending codebar as a student in March 2018..."
 original_url: "https://medium.com/codebar-stories/anushka-fernando-senior-data-scientist-8603b1eba479"
 ---

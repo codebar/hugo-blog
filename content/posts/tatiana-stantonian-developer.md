@@ -2,7 +2,7 @@
 title: "Tatiana Stantonian — Developer"
 date: 2016-10-20T10:06:28.000Z
 author: "codebar"
-tags: ["learn-to-code", "barcode", "become-a-web-developer", "software-development", "diversity-and-inclusion", "codebar-stories"]
+tags: ["learn-to-code", "codebar", "become-a-web-developer", "software-development", "diversity-and-inclusion", "codebar-stories"]
 summary: "Tatiana is a developer at Government Digital Service (GDS) in the GOV.UK team, a regular coach at codebar, and is also a huge advocate for diversity in tech."
 original_url: "https://medium.com/codebar-stories/tatiana-stantonian-developer-d18e77d9ad9"
 ---

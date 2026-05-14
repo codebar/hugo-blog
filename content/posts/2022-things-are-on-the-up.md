@@ -2,7 +2,7 @@
 title: "2022: Things are on the up"
 date: 2022-12-20T12:38:56.000Z
 author: "codebar"
-tags: ["barcode", "diversity-and-inclusion", "diversity", "community", "learn-to-code"]
+tags: ["codebar", "diversity-and-inclusion", "diversity", "community", "learn-to-code"]
 summary: "This year saw many of our workshops return to in-person, we saw the launch of four new chapters around the world and our first virtual only chapter, and the launch of our very first Impact Report. Oh,..."
 original_url: "https://medium.com/the-codelog/2022-things-are-on-the-up-8b2c9d8c665b?source=rss-cd59c44327ec------2"
 ---

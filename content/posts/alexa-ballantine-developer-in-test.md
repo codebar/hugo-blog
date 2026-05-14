@@ -2,7 +2,7 @@
 title: "Alexa Ballantine — Developer in Test"
 date: 2017-02-02T15:11:55.000Z
 author: "codebar"
-tags: ["learn-to-code", "barcode", "become-a-web-developer", "software-development", "diversity-and-inclusion", "codebar-stories"]
+tags: ["learn-to-code", "codebar", "become-a-web-developer", "software-development", "diversity-and-inclusion", "codebar-stories"]
 summary: "Before becoming a Developer in Test for Which?, Alexa worked as an Illustrator, Designer, Product Manager, Scuba Diving Instructor and Traveller."
 original_url: "https://medium.com/codebar-stories/alexa-ballantine-developer-in-test-ecc83713bc82"
 ---

@@ -2,7 +2,7 @@
 title: "Alexandra O'Mahony — Software Development Engineer"
 date: 2020-05-01T11:44:54.000Z
 author: "codebar"
-tags: ["learn-to-code", "barcode", "become-a-web-developer", "software-development", "diversity-and-inclusion", "codebar-stories"]
+tags: ["learn-to-code", "codebar", "become-a-web-developer", "software-development", "diversity-and-inclusion", "codebar-stories"]
 summary: "Alexandra is a Software Development Engineer at Findmypast, she attended her first codebar back in April 2019. Since then she has completed a course with Code First Girls and is a recent graduate of the 16-week Founder and Coders Bootcamp."
 original_url: "https://medium.com/codebar-stories/alexandra-omahony-software-development-engineer-98d05fdf241b"
 ---

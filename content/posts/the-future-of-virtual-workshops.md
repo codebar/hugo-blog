@@ -2,7 +2,7 @@
 title: "The future of virtual workshops"
 date: 2022-10-31T11:19:51.000Z
 author: "codebar"
-tags: ["remote-learning", "diversity-and-inclusion", "barcode", "learn-to-code", "community"]
+tags: ["remote-learning", "diversity-and-inclusion", "codebar", "learn-to-code", "community"]
 summary: "Screenshot from a recent codebar Bristol virtual workshop If the pandemic taught us anything it was that virtual events were amazing. You were able to get access things from the comfort of your sofa t..."
 original_url: "https://medium.com/the-codelog/the-future-of-virtual-workshops-76e54b209fa?source=rss-cd59c44327ec------2"
 ---

@@ -2,7 +2,7 @@
 title: "Alex Dresco — Software Engineer"
 date: 2020-11-16T10:23:48.000Z
 author: "codebar"
-tags: ["learn-to-code", "barcode", "become-a-web-developer", "software-development", "diversity-and-inclusion", "codebar-stories"]
+tags: ["learn-to-code", "codebar", "become-a-web-developer", "software-development", "diversity-and-inclusion", "codebar-stories"]
 summary: "Alex is a Software Engineer at Ravelin, she started attending codebar in May 2018 as a student before completing the Makers Bootcamp. She then started organising the Oxford codebar chapter before moving to London..."
 original_url: "https://medium.com/codebar-stories/alex-dresco-software-engineer-a7ba4a657747"
 ---

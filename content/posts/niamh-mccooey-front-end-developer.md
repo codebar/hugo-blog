@@ -2,7 +2,7 @@
 title: "Niamh McCooey — Front End Developer"
 date: 2019-05-24T15:50:59.000Z
 author: "codebar"
-tags: ["learn-to-code", "barcode", "become-a-web-developer", "software-development", "diversity-and-inclusion", "codebar-stories"]
+tags: ["learn-to-code", "codebar", "become-a-web-developer", "software-development", "diversity-and-inclusion", "codebar-stories"]
 summary: "Niamh is a Front-end Developer at Octophin Digital who has been attending codebar since July 2018. She is also getting into the world of talking, very recently giving her first talk at a codebar monthly..."
 original_url: "https://medium.com/codebar-stories/niamh-mccooey-front-end-developer-72c13be3dff"
 ---

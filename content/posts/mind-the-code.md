@@ -2,7 +2,7 @@
 title: "Mind the Code"
 date: 2015-06-17T00:00:00.000Z
 author: "codebar"
-tags: ["learn-to-code", "barcode", "become-a-web-developer", "software-development", "diversity-and-inclusion", "mindfulness", "events"]
+tags: ["learn-to-code", "codebar", "become-a-web-developer", "software-development", "diversity-and-inclusion", "mindfulness", "events"]
 summary: "On Saturday 4th June we organised Mind the Code, a day dedicated to mindfulness. Our aim was to run a slightly different event to anything we have ever ran before, where the day consisted of talks, workshops and yoga."
 original_url: "https://medium.com/the-codelog/https-medium-com-codebar-mind-the-code-2015-945b780d661e"
 ---

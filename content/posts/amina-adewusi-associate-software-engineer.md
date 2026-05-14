@@ -2,7 +2,7 @@
 title: "Amina Adewusi — Associate Software Engineer"
 date: 2019-11-22T11:04:19.000Z
 author: "codebar"
-tags: ["learn-to-code", "barcode", "become-a-web-developer", "software-development", "diversity-and-inclusion", "codebar-stories"]
+tags: ["learn-to-code", "codebar", "become-a-web-developer", "software-development", "diversity-and-inclusion", "codebar-stories"]
 summary: "Amina attended her first codebar as a student back in October 2018 when she decided to make the transition to be a developer. She is now an Associate Software Engineer at the Guardian."
 original_url: "https://medium.com/codebar-stories/amina-adewusi-associate-software-engineer-88dfa134d5c4"
 ---

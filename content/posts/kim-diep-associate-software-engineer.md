@@ -2,7 +2,7 @@
 title: "Kim Diep — Associate Software Engineer"
 date: 2019-09-17T01:01:50.000Z
 author: "codebar"
-tags: ["learn-to-code", "barcode", "become-a-web-developer", "software-development", "diversity-and-inclusion", "codebar-stories"]
+tags: ["learn-to-code", "codebar", "become-a-web-developer", "software-development", "diversity-and-inclusion", "codebar-stories"]
 summary: "Kim is an Associate Software Engineer at M&G Prudential. She has been a member of the codebar community since September 2017. Read below to hear all about her journey into tech..."
 original_url: "https://medium.com/codebar-stories/kim-diep-associate-software-engineer-1c3c4f93ec8c"
 ---

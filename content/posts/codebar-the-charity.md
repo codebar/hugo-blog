@@ -2,7 +2,7 @@
 title: "codebar — The Charity"
 date: 2020-04-06T09:12:52.000Z
 author: "codebar"
-tags: ["learn-to-code", "barcode", "become-a-web-developer", "software-development", "diversity-and-inclusion", "charity"]
+tags: ["learn-to-code", "codebar", "become-a-web-developer", "software-development", "diversity-and-inclusion", "charity"]
 summary: "That's right, after 14 months of lots of paperwork and legal conversations we are very happy to announce that codebar is now a registered charity 🎉🎉🎉..."
 original_url: "https://medium.com/the-codelog/codebar-the-charity-85f934698f7c"
 ---

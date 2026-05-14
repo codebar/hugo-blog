@@ -2,7 +2,7 @@
 title: "Evie Skinner — C# Developer"
 date: 2019-12-17T15:34:38.000Z
 author: "codebar"
-tags: ["learn-to-code", "barcode", "become-a-web-developer", "software-development", "diversity-and-inclusion", "codebar-stories", "csharp"]
+tags: ["learn-to-code", "codebar", "become-a-web-developer", "software-development", "diversity-and-inclusion", "codebar-stories", "csharp"]
 summary: "Evie is a C# developer at Sparta Global, she has been attending codebar since September 2018. First as a student and now as a coach. She started teaching herself to code in January 2018 before starting the Sparta Global bootcamp."
 original_url: "https://medium.com/codebar-stories/evie-skinner-c-developer-5548e23d3ad4"
 ---

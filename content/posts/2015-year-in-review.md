@@ -2,7 +2,7 @@
 title: "2015 Year in Review"
 date: 2016-01-12T00:00:00.000Z
 author: "codebar"
-tags: ["learn-to-code", "barcode", "become-a-web-developer", "software-development", "diversity-and-inclusion", "year-in-review"]
+tags: ["learn-to-code", "codebar", "become-a-web-developer", "software-development", "diversity-and-inclusion", "year-in-review"]
 summary: "2015, a sensational year for us here at codebar, has reached its end. Throughout this time we opened a number of new chapters, run many great events, grew our community by almost 120% and facilitated over 100 workshops across 8 of our chapters."
 original_url: "https://medium.com/the-codelog/2015-year-in-review-5d820183f038"
 ---

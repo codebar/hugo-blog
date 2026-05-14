@@ -2,7 +2,7 @@
 title: "Amber Wilson — Trainee front-end developer"
 date: 2018-07-30T10:06:50.000Z
 author: "codebar"
-tags: ["learn-to-code", "barcode", "become-a-web-developer", "software-development", "diversity-and-inclusion", "codebar-stories"]
+tags: ["learn-to-code", "codebar", "become-a-web-developer", "software-development", "diversity-and-inclusion", "codebar-stories"]
 summary: "Amber is a trainee front-end developer at Edenspiekermann in Berlin. She has been involved with codebar since July 2016. She started as a student, then started organising the Brighton chapter before moving to Berlin and getting involved in that chapter."
 original_url: "https://medium.com/codebar-stories/amber-wilson-trainee-front-end-developer-66aa3a2fe4f4"
 ---

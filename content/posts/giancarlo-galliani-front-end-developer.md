@@ -2,7 +2,7 @@
 title: "Giancarlo Galliani — Front-end Developer"
 date: 2017-04-25T16:17:41.000Z
 author: "codebar"
-tags: ["learn-to-code", "barcode", "become-a-web-developer", "software-development", "diversity-and-inclusion", "codebar-stories"]
+tags: ["learn-to-code", "codebar", "become-a-web-developer", "software-development", "diversity-and-inclusion", "codebar-stories"]
 summary: "Giancarlo is one of those codebar legends who started attending as a student then came back as a coach. He is currently a junior front end web developer at Vitamin London."
 original_url: "https://medium.com/codebar-stories/giancarlo-galliani-front-end-developer-da02e6402d"
 ---

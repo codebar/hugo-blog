@@ -2,7 +2,7 @@
 title: "Eli Schutze — UI Engineer"
 date: 2017-02-20T18:41:29.000Z
 author: "codebar"
-tags: ["learn-to-code", "barcode", "become-a-web-developer", "software-development", "diversity-and-inclusion", "codebar-stories"]
+tags: ["learn-to-code", "codebar", "become-a-web-developer", "software-development", "diversity-and-inclusion", "codebar-stories"]
 summary: "Eli is a UI Engineer at The Trainline, a regular coach at codebar, has spoken at codebar monthly. And if all that isn't enough she is also on the board for Women Hack for Non Profits."
 original_url: "https://medium.com/codebar-stories/eli-schutze-ui-engineer-d3661491ad55"
 ---

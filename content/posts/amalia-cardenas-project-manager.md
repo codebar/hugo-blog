@@ -2,7 +2,7 @@
 title: "Amalia Cardenas — Project Manager"
 date: 2016-10-07T10:21:04.000Z
 author: "codebar"
-tags: ["learn-to-code", "barcode", "become-a-web-developer", "software-development", "diversity-and-inclusion", "codebar-stories"]
+tags: ["learn-to-code", "codebar", "become-a-web-developer", "software-development", "diversity-and-inclusion", "codebar-stories"]
 summary: "Amalia Cardenas is a Project Manager at Homuork, and is the organiser of one of codebar's newest chapters in Barcelona."
 original_url: "https://medium.com/codebar-stories/amalia-cardenas-project-manager-39e350314df4"
 ---

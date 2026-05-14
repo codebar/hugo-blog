@@ -2,7 +2,7 @@
 title: "Beverley Newing — Front End Developer"
 date: 2017-07-07T18:19:33.000Z
 author: "codebar"
-tags: ["learn-to-code", "barcode", "become-a-web-developer", "software-development", "diversity-and-inclusion", "codebar-stories"]
+tags: ["learn-to-code", "codebar", "become-a-web-developer", "software-development", "diversity-and-inclusion", "codebar-stories"]
 summary: "Beverley is currently Front End Developer at Oxford Computer Consultants, she is one of those codebar greats who started attending as a student then came back as a coach, and has now started a new chapter in Oxford after moving there for an internship."
 original_url: "https://medium.com/codebar-stories/beverley-newing-front-end-developer-669300f30d45"
 ---

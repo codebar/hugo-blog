@@ -2,7 +2,7 @@
 title: "Jo Franchetti — Front-end Engineer"
 date: 2016-07-15T10:54:31.000Z
 author: "codebar"
-tags: ["learn-to-code", "barcode", "become-a-web-developer", "software-development", "diversity-and-inclusion", "codebar-stories"]
+tags: ["learn-to-code", "codebar", "become-a-web-developer", "software-development", "diversity-and-inclusion", "codebar-stories"]
 summary: "Jo Franchetti is a front-end Engineer and organiser of Achieving Diversity in Tech. She is also one of the regular coaches at codebar London and all round great person."
 original_url: "https://medium.com/codebar-stories/jo-franchetti-front-end-engineer-6ca5eb958535"
 ---

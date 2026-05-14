@@ -2,7 +2,7 @@
 title: "Kriszta Matyi — Front-end Developer"
 date: 2016-06-13T22:52:23.000Z
 author: "codebar"
-tags: ["learn-to-code", "barcode", "become-a-web-developer", "software-development", "diversity-and-inclusion", "codebar-stories"]
+tags: ["learn-to-code", "codebar", "become-a-web-developer", "software-development", "diversity-and-inclusion", "codebar-stories"]
 summary: "Hi, my name is Kriszta, I've been a professional web developer for little over 2 years now. I currently work for Wolff Olins as a front-end developer. I have a background in product and graphic design."
 original_url: "https://medium.com/codebar-stories/kriszta-matyi-front-end-developer-998e1728927f"
 ---

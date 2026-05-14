@@ -2,7 +2,7 @@
 title: "Zaira Rasool — Junior Engineer"
 date: 2021-05-18T11:52:44.000Z
 author: "codebar"
-tags: ["learn-to-code", "barcode", "become-a-web-developer", "software-development", "diversity-and-inclusion", "codebar-stories"]
+tags: ["learn-to-code", "codebar", "become-a-web-developer", "software-development", "diversity-and-inclusion", "codebar-stories"]
 summary: "Zaira is a junior engineer at World Remit, she joined the codebar community in October 2018 before completing Makers Bootcamp. She then started her career at Farmdrop..."
 original_url: "https://medium.com/codebar-stories/zaira-rasool-junior-engineer-22040d05a019"
 ---

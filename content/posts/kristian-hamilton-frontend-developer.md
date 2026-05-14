@@ -2,7 +2,7 @@
 title: "Kristian Hamilton — Frontend developer"
 date: 2018-10-04T20:12:40.000Z
 author: "codebar"
-tags: ["learn-to-code", "barcode", "become-a-web-developer", "software-development", "diversity-and-inclusion", "codebar-stories"]
+tags: ["learn-to-code", "codebar", "become-a-web-developer", "software-development", "diversity-and-inclusion", "codebar-stories"]
 summary: "Kristian is a frontend developer and has been coaching at codebar since November 2015. After coaching for several months he started helping as an organiser with the West London chapter, and then moved to Berlin where he took on the role as organiser there."
 original_url: "https://medium.com/codebar-stories/kristian-hamilton-frontend-developer-576087baa386"
 ---

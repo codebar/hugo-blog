@@ -2,7 +2,7 @@
 title: "Daisy Mølving — Software Crafter"
 date: 2019-03-20T18:02:56.000Z
 author: "codebar"
-tags: ["learn-to-code", "barcode", "become-a-web-developer", "software-development", "diversity-and-inclusion", "codebar-stories", "design"]
+tags: ["learn-to-code", "codebar", "become-a-web-developer", "software-development", "diversity-and-inclusion", "codebar-stories", "design"]
 summary: "Daisy is a software crafter at 8th Light. Having worked as a consultant for a few years she is now pursuing a speciality in design and doing a design apprenticeship at 8th Light."
 original_url: "https://medium.com/codebar-stories/daisy-m%C3%B8lving-software-crafter-6ad9b920d81"
 ---

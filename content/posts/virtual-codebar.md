@@ -2,7 +2,7 @@
 title: "Virtual codebar"
 date: 2020-05-13T15:01:04.000Z
 author: "codebar"
-tags: ["learn-to-code", "barcode", "become-a-web-developer", "software-development", "diversity-and-inclusion", "virtual", "remote"]
+tags: ["learn-to-code", "codebar", "become-a-web-developer", "software-development", "diversity-and-inclusion", "virtual", "remote"]
 summary: "We won't mention the big C word in this post, as we've heard it enough already but let's say it's kept us on our toes here at codebar. Ever since our first workshop venue canceled on us at the beginning of March we've had to adapt..."
 original_url: "https://medium.com/the-codelog/virtual-codebar-9d9e5235e4b0"
 ---

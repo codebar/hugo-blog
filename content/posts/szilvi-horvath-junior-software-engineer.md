@@ -2,7 +2,7 @@
 title: "Szilvi Horvath — Junior Software Engineer"
 date: 2020-02-27T10:47:18.000Z
 author: "codebar"
-tags: ["learn-to-code", "barcode", "become-a-web-developer", "software-development", "diversity-and-inclusion", "codebar-stories"]
+tags: ["learn-to-code", "codebar", "become-a-web-developer", "software-development", "diversity-and-inclusion", "codebar-stories"]
 summary: "Szilvi is a Junior Software Engineer at Capgemini, she started attending codebar in the summer of 2018 as a student and is also a Makers Alumni."
 original_url: "https://medium.com/codebar-stories/szilvi-horvath-junior-software-engineer-31406fad476b"
 ---

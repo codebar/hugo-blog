@@ -2,7 +2,7 @@
 title: "Ruth Baker — Makers Fellow"
 date: 2019-04-29T19:23:49.000Z
 author: "codebar"
-tags: ["learn-to-code", "barcode", "become-a-web-developer", "software-development", "diversity-and-inclusion", "codebar-stories", "makers"]
+tags: ["learn-to-code", "codebar", "become-a-web-developer", "software-development", "diversity-and-inclusion", "codebar-stories", "makers"]
 summary: "Ruth is a Makers Fellow, transforming her career from science publishing to software development. She built her tech skills through open resources and by attending codebar events in London, and is now a moderator for virtual codebar."
 original_url: "https://medium.com/codebar-stories/ruth-baker-makers-fellow-4bf301f3fbe3"
 ---

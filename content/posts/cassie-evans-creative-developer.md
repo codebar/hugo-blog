@@ -2,7 +2,7 @@
 title: "Cassie Evans — Creative Developer"
 date: 2018-02-05T16:04:11.000Z
 author: "codebar"
-tags: ["learn-to-code", "barcode", "become-a-web-developer", "software-development", "diversity-and-inclusion", "codebar-stories", "css", "animation"]
+tags: ["learn-to-code", "codebar", "become-a-web-developer", "software-development", "diversity-and-inclusion", "codebar-stories", "css", "animation"]
 summary: "Cassie is a creative developer at Net Natives, as well as being one of the core organisers of codebar Brighton. In her spare time she likes making animations with code and doing talks on CSS."
 original_url: "https://medium.com/codebar-stories/cassie-evans-creative-developer-c02152ae1691"
 ---

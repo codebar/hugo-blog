@@ -2,7 +2,7 @@
 title: "Essi Jukkala — Games Programmer"
 date: 2019-07-07T19:15:42.000Z
 author: "codebar"
-tags: ["learn-to-code", "barcode", "become-a-web-developer", "software-development", "diversity-and-inclusion", "codebar-stories", "games"]
+tags: ["learn-to-code", "codebar", "become-a-web-developer", "software-development", "diversity-and-inclusion", "codebar-stories", "games"]
 summary: "Essi is a Games Programmer at Helsinki based gaming studio Shipyard Games, and has been a coach at several of the codebar Helsinki workshops."
 original_url: "https://medium.com/codebar-stories/essi-jukkala-game-programmer-3c96a9f32e0"
 ---
