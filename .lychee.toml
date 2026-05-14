@@ -15,6 +15,47 @@ exclude = [
     # Twitter blocks crawlers/rate limits
     "twitter.com",
     "x.com",
+    # Dead chapters that may return in future (with http/https variants)
+    "codebar.io/brussels",
+    "codebar.io/lagos",
+    "codebar.io/southampton",
+    "codebar.io/austin",
+    "codebar.io/delhi",
+    "codebar.io/geneva",
+    "codebar.io/drammen",
+    "codebar.io/south-london",
+    # Dead external sites
+    "hopin.com/events/codebar-job-fair-2023",
+    "khan.github.io/tota11y",
+    "codebar.io/jobs",
+    "scotlandjs.com",
+    "scotlandcss.com",
+    "soascodingclub.com",
+    "digitalchipo.com",
+    "womenhackfornonprofits.com",
+    "hackbrexit.org",
+    "ministersundertheinfluence.co.uk",
+    "achievingdiversityin.tech",
+    "rubycorns.club",
+    "cargocollective.com",
+    "leaverou.github.io/contrast-ratio",
+    "flourishintech.ck.page",
+    "goldblumsimulator2017.glitch.me",
+    "pointsoflight.gov.uk",
+    "codersofcolour.org",
+    # Temporarily down/unreachable sites
+    "codebar-slack.herokuapp.com",
+    "donate.codebar.io",
+    "impact-report-22.codebar.io",
+    "codefirstgirls.org.uk",
+    "euruko2015.org",
+    "oxfordcc.co.uk",
+    # Malformed/old blog links
+    "blog.codebar.io/2016/01/12/year-in-review-2015/2015.bathruby.org",
+    # LinkedIn blocks crawlers (returns 999 or 404)
+    "linkedin.com",
+    # Old courses link
+    "codebar.io/courses/kickstart-your-developer-career",
 ]
 
 # Accept these status codes
