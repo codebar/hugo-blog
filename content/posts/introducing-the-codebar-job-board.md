@@ -2,7 +2,7 @@
 title: "Introducing the codebar job board"
 date: 2017-08-07T09:27:42.000Z
 author: "codebar"
-tags: ["learn-to-code", "barcode", "become-a-web-developer", "software-development", "diversity-and-inclusion", "jobs", "career"]
+tags: ["learn-to-code", "codebar", "become-a-web-developer", "software-development", "diversity-and-inclusion", "jobs", "career"]
 summary: "codebar has been running for 4 years now and frequently we get asked 'Do you help students get jobs once you've taught them to code?'. There have been a number of instances where a codebar student has found a job through us..."
 original_url: "https://medium.com/the-codelog/introducing-the-codebar-jobs-board-790ddd742360"
 ---

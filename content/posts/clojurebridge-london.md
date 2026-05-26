@@ -2,7 +2,7 @@
 title: "Clojurebridge London"
 date: 2015-05-05T00:00:00.000Z
 author: "codebar"
-tags: ["learn-to-code", "barcode", "become-a-web-developer", "software-development", "diversity-and-inclusion", "clojure", "workshop"]
+tags: ["learn-to-code", "codebar", "become-a-web-developer", "software-development", "diversity-and-inclusion", "clojure", "workshop"]
 summary: "On Saturday April 18, Kriszta, Jarkyn, and Denise took part in London's first-ever Clojurebridge workshop, hosted at uSwitch's sunny offices in Southwark."
 original_url: "https://medium.com/the-codelog/clojurebridge-london-2015-268d4b9d94a1"
 ---

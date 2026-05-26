@@ -2,7 +2,7 @@
 title: "EuRuKo 2015"
 date: 2015-12-14T00:00:00.000Z
 author: "codebar"
-tags: ["learn-to-code", "barcode", "become-a-web-developer", "software-development", "diversity-and-inclusion", "events", "ruby", "conference"]
+tags: ["learn-to-code", "codebar", "become-a-web-developer", "software-development", "diversity-and-inclusion", "events", "ruby", "conference"]
 summary: "Salzburg and the Sound of Music are traditionally inseparable, but there was little traditional about the sound of music in the Salzburg Congress hall in the middle of October."
 original_url: "https://medium.com/the-codelog/euruko-2015-8d4cd3e0f8cd"
 ---

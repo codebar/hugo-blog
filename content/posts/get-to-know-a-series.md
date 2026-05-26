@@ -2,7 +2,7 @@
 title: "Get to know a … series"
 date: 2021-06-24T10:29:13.000Z
 author: "codebar"
-tags: ["learn-to-code", "barcode", "become-a-web-developer", "software-development", "diversity-and-inclusion"]
+tags: ["learn-to-code", "codebar", "become-a-web-developer", "software-development", "diversity-and-inclusion"]
 summary: "Get to know a … series is a new lunchtime talk series where we'll be chatting with people who code in their job role. We want to expose our community to the huge variety of roles possible that involve coding..."
 original_url: "https://medium.com/the-codelog/get-to-know-a-series-fb184c021744"
 ---

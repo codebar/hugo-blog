@@ -2,7 +2,7 @@
 title: "Linh Nguyen My — Graduate Software Engineer"
 date: 2017-09-21T16:13:22.000Z
 author: "codebar"
-tags: ["learn-to-code", "barcode", "become-a-web-developer", "software-development", "diversity-and-inclusion", "codebar-stories"]
+tags: ["learn-to-code", "codebar", "become-a-web-developer", "software-development", "diversity-and-inclusion", "codebar-stories"]
 summary: "Linh is a long-time codebar student who has just started her software engineering career as a Graduate Software Engineer at ASOS."
 original_url: "https://medium.com/codebar-stories/linh-nguyen-my-graduate-software-engineer-e8facce4566"
 ---
