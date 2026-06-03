@@ -2,7 +2,7 @@
 title: "codebar Festival 2022 Wrapped"
 date: 2022-04-04T09:37:30.000Z
 author: "codebar"
-tags: ["learn-to-code", "barcode", "become-a-web-developer", "software-development", "diversity-and-inclusion"]
+tags: ["learn-to-code", "codebar", "become-a-web-developer", "software-development", "diversity-and-inclusion"]
 summary: "We can't believe codebar Festival is over for another year! Time really does fly when you're having fun. codebar Festival is our jam-packed, 100% virtual, 3-day event that happens every March..."
 original_url: "https://medium.com/the-codelog/codebar-festival-2022-wrapped-b5377cc0e21d"
 ---

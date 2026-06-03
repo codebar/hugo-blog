@@ -2,7 +2,7 @@
 title: "Makers Scholarship"
 date: 2021-02-15T13:12:03.000Z
 author: "codebar"
-tags: ["learn-to-code", "barcode", "become-a-web-developer", "software-development", "diversity-and-inclusion", "scholarship", "makers"]
+tags: ["learn-to-code", "codebar", "become-a-web-developer", "software-development", "diversity-and-inclusion", "scholarship", "makers"]
 summary: "Applications for this scholarship have now closed. We are extremely excited to announce that Makers are giving 6 of our community members the opportunity to complete their Bootcamp for free..."
 original_url: "https://medium.com/the-codelog/makers-scholarship-4c0fb1ae5620"
 ---

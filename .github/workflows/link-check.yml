@@ -13,6 +13,7 @@ jobs:
     name: Link Checker
     runs-on: ubuntu-latest
     permissions:
+      contents: read  # Required for actions/checkout
       issues: write  # Required for creating issues from file
     steps:
       - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
@@ -24,10 +25,7 @@ jobs:
         uses: lycheeverse/lychee-action@8646ba30535128ac92d33dfc9133794bfdd9b411 # v2
         with:
           # Check markdown files in content directory using config file
-          args: |
-            --config .lychee.toml
-            --root-dir .
-            'content/**/*.md'
+          args: --config .lychee.toml --root-dir static 'content/**/*.md'
           # Don't fail action on broken links (we'll create an issue instead)
           fail: false
           # Output format

@@ -2,7 +2,7 @@
 title: "Rianne McCartney — Software Engineer"
 date: 2020-08-26T12:50:20.000Z
 author: "codebar"
-tags: ["learn-to-code", "barcode", "become-a-web-developer", "software-development", "diversity-and-inclusion", "codebar-stories"]
+tags: ["learn-to-code", "codebar", "become-a-web-developer", "software-development", "diversity-and-inclusion", "codebar-stories"]
 summary: "Rianna is a software engineer at Gousto; the food box delivery service. She started attending codebar as a student in August 2019, before deciding to do the Makers 14 week Bootcamp..."
 original_url: "https://medium.com/codebar-stories/rianne-mccartney-software-engineer-47c2def4629"
 ---

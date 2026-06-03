@@ -2,7 +2,7 @@
 title: "Bath Ruby 2015"
 date: 2016-08-22T11:33:35.000Z
 author: "codebar"
-tags: ["learn-to-code", "barcode", "become-a-web-developer", "software-development", "diversity-and-inclusion", "events", "ruby", "conference"]
+tags: ["learn-to-code", "codebar", "become-a-web-developer", "software-development", "diversity-and-inclusion", "events", "ruby", "conference"]
 summary: "If you happened to be in Bath last Friday, 13th of March, you would have seen a host of Ruby developers from the UK and beyond descend upon the ancient city for the first ever Bath Ruby Conference."
 original_url: "https://medium.com/the-codelog/bath-ruby-2015-85c7d29df8e5"
 ---

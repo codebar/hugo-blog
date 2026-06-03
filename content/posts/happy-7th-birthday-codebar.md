@@ -2,7 +2,7 @@
 title: "Happy 7th Birthday codebar!"
 date: 2020-10-23T12:10:57.000Z
 author: "codebar"
-tags: ["learn-to-code", "barcode", "become-a-web-developer", "software-development", "diversity-and-inclusion", "birthday", "anniversary"]
+tags: ["learn-to-code", "codebar", "become-a-web-developer", "software-development", "diversity-and-inclusion", "birthday", "anniversary"]
 summary: "7 years...WOW! We're not entirely sure how that happened or where time has gone. On Wednesday 23rd October 2013 we ran our very first codebar workshop in London..."
 original_url: "https://codebar.medium.com/happy-7th-birthday-codebar-aa3a966d88ce"
 ---

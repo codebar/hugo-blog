@@ -2,7 +2,7 @@
 title: "Year in Review 2020"
 date: 2020-12-21T04:54:55.000Z
 author: "codebar"
-tags: ["learn-to-code", "barcode", "become-a-web-developer", "software-development", "diversity-and-inclusion", "year-in-review"]
+tags: ["learn-to-code", "codebar", "become-a-web-developer", "software-development", "diversity-and-inclusion", "year-in-review"]
 summary: "2020 has been a challenging but ultimately rewarding year for codebar. We have achieved a few milestones this year that we have been working towards for a while, like becoming a registered charity..."
 original_url: "https://medium.com/the-codelog/year-in-review-2020-a5666d674b20"
 ---
