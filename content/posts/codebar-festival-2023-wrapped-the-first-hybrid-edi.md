@@ -7,7 +7,7 @@ summary: "A group shot from the in-person event on Saturday 11th March Our annua
 original_url: "https://medium.com/the-codelog/codebar-festival-2023-wrapped-the-first-hybrid-edition-688d0a18a973?source=rss-cd59c44327ec------2"
 ---
 
-![](https://cdn-images-1.medium.com/max/1024/1*EljbVu5vwLfR6K684Tr5XA.jpeg)
+![](/images/medium-migration/EljbVu5vwLfR6K684Tr5XA.jpeg)
 
 A group shot from the in-person event on Saturday 11th March
 
@@ -23,14 +23,14 @@ Our technical workshops consisted of:
 * Create a game in Javascript
 * Figma For Everyone: Exploring Templates For Productivity, Organising, Note Taking And More!
 
-![](https://cdn-images-1.medium.com/max/1024/1*3WpRpUV-dE9n4uU67R6BdQ.jpeg)![](https://cdn-images-1.medium.com/max/1024/1*RzNXAqUaEdzvg2xnOZ8YFA.jpeg)
+![](/images/medium-migration/3WpRpUV-dE9n4uU67R6BdQ.jpeg)![](/images/medium-migration/RzNXAqUaEdzvg2xnOZ8YFA.jpeg)
 
 These technical workshops allowed our community to dive deeper
 into a particular topic.
 
 The full-day event on Saturday consisted of 9 sessions — 7 talks, a panel, and a CV review. When we set out to run an in-person element, we knew it had to be available virtually as well. We didn’t want people to feel like they were watching a stream — we wanted them to feel like they were taking part in the event. To ensure this, we had a virtual host — Suze Shardlow — and an in-person host. Several of our speakers were virtual too!
 
-![](https://cdn-images-1.medium.com/max/1024/1*i8EakmfGWLBRQ5uWTfTMNg.jpeg)![](https://cdn-images-1.medium.com/max/1024/1*ka2vvOj4kX_ClOH7oftw7g.jpeg)![](https://cdn-images-1.medium.com/max/1024/1*yQV4gdb475_7xT7HVmotvA.jpeg)![](https://cdn-images-1.medium.com/max/1024/1*q5Oq3u1Z0TzBUckYNO_UZA.jpeg)
+![](/images/medium-migration/i8EakmfGWLBRQ5uWTfTMNg.jpeg)![](/images/medium-migration/ka2vvOj4kX_ClOH7oftw7g.jpeg)![](/images/medium-migration/yQV4gdb475_7xT7HVmotvA.jpeg)![](/images/medium-migration/q5Oq3u1Z0TzBUckYNO_UZA.jpeg)
 
 A few images of our speakers throughout the day. Image 1 — Pat Graczyk. Image 2 — Danni Youziel. Image 3 — The Importance of Diversity in Tech Panel. And image 4 — Seyoung Joo
 
@@ -44,7 +44,7 @@ There are several elements of codebar Festival that we are extremely proud of. T
 
 These payments would not have been possible without our wonderful sponsors — [Contentful](https://www.contentful.com/), [J.P.Morgan](https://www.jpmorgan.com/technology), [T. Rowe Price](https://www.troweprice.com/corporate/uk/en/home.html), and [Substrakt](https://substrakt.com/). Without their support, we would not have been able to run the Festival so we’re sending you the biggest thank you. We also want to send a huge thank you to [10x Banking](https://www.10xbanking.com/), who not only gave us their wonderful venue but also feed us and ensured everything was streamed out to our virtual audience.
 
-![](https://cdn-images-1.medium.com/max/1024/1*_EzijiDkDsMn3QutVwHZnw.jpeg)![](https://cdn-images-1.medium.com/max/1024/1*NKheNfP9Kybtnh_2510obg.jpeg)
+![](/images/medium-migration/_EzijiDkDsMn3QutVwHZnw.jpeg)![](/images/medium-migration/NKheNfP9Kybtnh_2510obg.jpeg)
 
 If you missed any sessions they are currently being uploaded to our Youtube channel [here](https://www.youtube.com/channel/UCEYz232agE47GHUq8wneBCA).
 

@@ -17,7 +17,7 @@ In March, after many months of preparation and hard work, we ran our third [code
 
 Plans are already well underway for next year! It will be 5 days again, 4 days of virtual deep dive technical workshops, followed by a hybrid conference day held in London and virtually. The CFP is now open if you’d like to [submit a session](https://forms.gle/s5HDYWZdfokQKMRY9). We strongly encourage everyone to submit their idea, even if you’ve never done a talk before! This is the perfect opportunity to bring your session idea to life. If you’d like to talk to us about your proposal before submitting it, please drop us an email at hello@codebar.io.
 
-![](https://cdn-images-1.medium.com/max/1024/1*EljbVu5vwLfR6K684Tr5XA.jpeg)
+![](/images/medium-migration/EljbVu5vwLfR6K684Tr5XA.jpeg)
 
 A group shot from codebar Festival 2023 at 10x Banking
 
@@ -33,7 +33,7 @@ We’re excited to be running the Job Fair again in June 2024. If you are a comp
 
 This year was momentous for our famous annual unconference. We of course ran it in London for the 9th time. AHHH!! Annnnd, we ran it in Barcelona and Glasgow for the first time. uncodebar is always our favourite event of the year so being able to expand this event to other locations was our highlight of the year. We also absolutely loved meeting people from our Barcelona and Scottish communities. We can’t wait to see what next year brings!
 
-![](https://cdn-images-1.medium.com/max/1024/1*RblSKmKAf_HUFygMvkWpvA.jpeg)![](https://cdn-images-1.medium.com/max/1024/1*1DnG93iU8UXTBNAWg2pCYQ.jpeg)
+![](/images/medium-migration/RblSKmKAf_HUFygMvkWpvA.jpeg)![](/images/medium-migration/1DnG93iU8UXTBNAWg2pCYQ.jpeg)
 
 Photos taken from uncodebar Barcelona and uncodebar Scotland
 

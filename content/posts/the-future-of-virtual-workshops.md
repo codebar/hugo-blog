@@ -7,7 +7,7 @@ summary: "Screenshot from a recent codebar Bristol virtual workshop If the pande
 original_url: "https://medium.com/the-codelog/the-future-of-virtual-workshops-76e54b209fa?source=rss-cd59c44327ec------2"
 ---
 
-![](https://cdn-images-1.medium.com/max/1024/1*O0zj-eCx3aJgeLu3jI8Ayw.jpeg)
+![](/images/medium-migration/O0zj-eCx3aJgeLu3jI8Ayw.jpeg)
 
 Screenshot from a recent codebar Bristol virtual workshop
 

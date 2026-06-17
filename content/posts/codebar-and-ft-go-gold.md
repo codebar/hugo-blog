@@ -9,7 +9,7 @@ original_url: "https://medium.com/the-codelog/codebar-and-ft-go-gold-a130178e9a1
 
 The FT, one of the world’s leading news organisations, have been huge supporters of codebar for many years, first hosting one of our workshops all the way back in 2016. And now, we are so excited to reveal that we are deepening our partnership by welcoming them as a Gold sponsor!
 
-![](https://cdn-images-1.medium.com/max/1024/1*0GhSuFr6LBJXN4W34he9HQ.jpeg)
+![](/images/medium-migration/0GhSuFr6LBJXN4W34he9HQ.jpeg)
 
 Picture was taken from the last FT workshop
 

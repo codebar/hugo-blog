@@ -13,7 +13,7 @@ uncodebar is our annual unconference that brings the codebar community together 
 
 An unconference means there are no talks pre-planned— attendees create it on the day, promoting an informal and inclusive exchange of ideas. Anyone, regardless of experience, can lead a session, which can range from technical workshops, talks, round-table discussions and panels.
 
-![](https://cdn-images-1.medium.com/max/1024/1*uDIaGzSzgLskUnKkSYYT9Q.jpeg)
+![](/images/medium-migration/uDIaGzSzgLskUnKkSYYT9Q.jpeg)
 
 Credit to [Eddie Jaoude](https://x.com/eddiejaoude) for this photo
 
@@ -21,7 +21,7 @@ The day began with a welcome session where our community members pitched a diver
 
 Throughout the day, the sense of community was everywhere. Experienced and junior developers alike exchanged knowledge and stories, proving that uncodebar is not just about tech — it’s about supporting each other, building networks, and fostering a sense of belonging, particularly for those who are underrepresented in the tech industry. The diverse range of sessions highlighted the importance of representation in tech, and it was inspiring to see so many first-time speakers stepping up to share their knowledge.
 
-![](https://cdn-images-1.medium.com/max/1024/1*UvLvIXJ5luNXPku4h3A74A.jpeg)![](https://cdn-images-1.medium.com/max/1024/1*LxFb-h73CPRUk8J1P6eA6g.jpeg)
+![](/images/medium-migration/UvLvIXJ5luNXPku4h3A74A.jpeg)![](/images/medium-migration/LxFb-h73CPRUk8J1P6eA6g.jpeg)
 
 A big thank you to Google for hosting us, feeding us and keeping us hydrated. A huge thank you to Contentful for being our wonderful Gold sponsor, without you the event wouldn’t have been possible. And a third thank you to our Travel sponsor TravelPerk, because of you we were able to financially help 16 people get to the event.
 

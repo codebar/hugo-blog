@@ -7,7 +7,7 @@ summary: "This year saw many of our workshops return to in-person, we saw the la
 original_url: "https://medium.com/the-codelog/2022-things-are-on-the-up-8b2c9d8c665b?source=rss-cd59c44327ec------2"
 ---
 
-![](https://cdn-images-1.medium.com/max/1024/1*LHfbC486NguLev7S9wruvQ.jpeg)
+![](/images/medium-migration/LHfbC486NguLev7S9wruvQ.jpeg)
 
 This year saw many of our workshops return to in-person, we saw the launch of four new chapters around the world and our first virtual only chapter, and the launch of our very first Impact Report. Oh, and a new job board. Fair to say it was a very good year!
 
@@ -27,7 +27,7 @@ This year saw the return of in-person uncodebar — our annual unconference.
 
 This event felt so special after running it virtually for 2 years and is always an absolute highlight of the year. We’re already excited for uncodebar 9 in 2023!
 
-![](https://cdn-images-1.medium.com/max/1024/1*a8cdiRjzSSH1WCjSnBtIsQ.jpeg)![](https://cdn-images-1.medium.com/max/1024/1*70aAIqLF7HXwBjZWt-mMBw.jpeg)![](https://cdn-images-1.medium.com/max/1024/1*BAcnDYyxGQGjqeOAH62w5Q.jpeg)
+![](/images/medium-migration/a8cdiRjzSSH1WCjSnBtIsQ.jpeg)![](/images/medium-migration/70aAIqLF7HXwBjZWt-mMBw.jpeg)![](/images/medium-migration/BAcnDYyxGQGjqeOAH62w5Q.jpeg)
 
 ### codebar Impact Report
 

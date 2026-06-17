@@ -11,7 +11,7 @@ original_url: "https://medium.com/the-codelog/were-back-uncodebar-8-69a7baecb543
 
 September 2022 saw the return of our annual unconference uncodebar!
 
-![A group shot of all attendees from uncodebar](https://cdn-images-1.medium.com/max/1024/1*LHfbC486NguLev7S9wruvQ.jpeg)
+![A group shot of all attendees from uncodebar](/images/medium-migration/LHfbC486NguLev7S9wruvQ.jpeg)
 
 Group shot from uncodebar. Taken by [Eddie Jaoude](https://twitter.com/eddiejaoude)
 
@@ -19,13 +19,13 @@ We were so thrilled to be welcoming our community to the Google office in London
 
 An unconference is a “loosely structured open space event emphasising the informal exchange of information and ideas between participants”. This means that no sessions are scheduled ahead of the day. After the welcome talk attendees tell their session idea and we start creating the schedule — it can be a talk, panel, discussion, or workshop. This is a 100% participant-driven event: we only suggest time slots and spaces. There were 4 (sometimes 5) tracks to uncodebar 8, totallin 24 sessions. Below was the schedule after everyone had said their idea.
 
-![](https://cdn-images-1.medium.com/max/1024/1*Id6p0RvPmUvpVE2FmQNq7A.png)
+![](/images/medium-migration/Id6p0RvPmUvpVE2FmQNq7A.png)
 
 We then finished the day with a 45-minute lightning talk slot where people could come and talk about anything for 5 minutes. We had someone talk about caching, someone showed us how to put together a website in 5 minutes, and someone even gave the strangest (and best) recruitment pitch we’ve ever seen at a tech event— for their local underwater rugby team.
 
 uncodebar is without a doubt always the highlight of our year. We absolutely love the broad range of sessions that happen, and the spontaneity of the day. Admittedly not knowing beforehand does scare us a little but our amazing community never shies away from sharing what they know.
 
-![](https://cdn-images-1.medium.com/max/1024/1*WwChh2lJr4j5bren9YMv3Q.jpeg)![](https://cdn-images-1.medium.com/max/1024/1*BAcnDYyxGQGjqeOAH62w5Q.jpeg)
+![](/images/medium-migration/WwChh2lJr4j5bren9YMv3Q.jpeg)![](/images/medium-migration/BAcnDYyxGQGjqeOAH62w5Q.jpeg)
 
 The day could not have gone ahead without our amazing host and sponsor Google. Not only did they provide an amazing space, but they also fed and hydrated us. Thank you so much Google and to all the Googlers that helped on the day! If you want to find out more about career opportunities with Google please enter your details into [this form](https://forms.gle/6swAQs3yTXBivzMv8).
 
