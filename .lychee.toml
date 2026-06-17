@@ -46,6 +46,8 @@ exclude = [
     # Squatted domains (redirect to spam)
     "thenetawards.com",
     "happybearsoftware.com",
+    # Intermittent Medium cross-posts (403/410)
+    "medium.com/the-codelog",
     # Temporarily down/unreachable sites
     "codebar-slack.herokuapp.com",
     "donate.codebar.io",
