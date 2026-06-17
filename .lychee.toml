@@ -43,6 +43,9 @@ exclude = [
     "goldblumsimulator2017.glitch.me",
     "pointsoflight.gov.uk",
     "codersofcolour.org",
+    # Squatted domains (redirect to spam)
+    "thenetawards.com",
+    "happybearsoftware.com",
     # Temporarily down/unreachable sites
     "codebar-slack.herokuapp.com",
     "donate.codebar.io",
