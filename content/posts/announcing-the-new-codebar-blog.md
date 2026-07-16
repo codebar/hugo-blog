@@ -2,11 +2,11 @@
 title: "Announcing the new codebar blog"
 date: 2026-07-16T09:36:15.000Z
 author: "Kimberley Cook"
-tags: ["community", "diveristy-and-inclusion", "conference", "diversity-in-tech", "codebar"]
+tags: ["blog", "contribute"]
 summary: "While Medium served us well for a long time, we wanted a new space that truly felt like ours. So, we built one ..."
 ---
 
-Ohhhh hello codebar blog, it's been a little while. We're so happy to writing again 🥰 and with that the codebar blog has officially moved!
+Ohhhh hello codebar blog, it's been a little while. We're so happy to be writing again 🥰 and with that the codebar blog has officially moved!
 
 If you’ve been following our journey over the years, you might know that our blog, which includes community updates, and technical content, were previously hosted on Medium. While Medium served us well for a long time, we wanted a space that truly felt like ours - more accessible, fully open-source, and seamlessly integrated with the rest of codebar.
 

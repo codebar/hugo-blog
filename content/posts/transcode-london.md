@@ -3,7 +3,7 @@ title: "Trans*Code London"
 date: 2015-02-22T15:19:28Z
 comments: true
 author: Codebar
-tags: ["london", "trans-code"]
+tags: ["london", "trans-code", "events", "conference"]
 summary: "Supporting Trans*Code: a beginner-friendly hackday bringing together trans, non-binary, and ally coders to build solutions for transgender communities."
 ---
 

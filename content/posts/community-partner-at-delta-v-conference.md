@@ -2,7 +2,7 @@
 title: "Community Partner at Delta V Conference"
 date: 2018-05-29T09:18:47.000Z
 author: "codebar"
-tags: ["learn-to-code", "codebar", "become-a-web-developer", "software-development", "diversity-and-inclusion", "conference"]
+tags: ["conference", "events", "london"]
 summary: "A huge thanks to team Delta V — Jo, Perry and Simon for their generous support and inclusion of codebar in their inaugural conference."
 original_url: "https://medium.com/the-codelog/community-partner-at-delta-v-conference-2630695245ad"
 ---

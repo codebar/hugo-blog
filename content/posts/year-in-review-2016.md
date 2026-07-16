@@ -2,7 +2,7 @@
 title: "Year in Review 2016"
 date: 2017-01-22T14:06:18.000Z
 author: "codebar"
-tags: ["learn-to-code", "codebar", "become-a-web-developer", "software-development", "diversity-and-inclusion", "year-in-review"]
+tags: ["year-in-review"]
 summary: "Another busy year has come to an end, and we think it's time to reflect on all the things we achieved in 2016. It was been a really good year for us at codebar."
 original_url: "https://medium.com/the-codelog/year-in-review-2016-9e9986dcd171"
 ---

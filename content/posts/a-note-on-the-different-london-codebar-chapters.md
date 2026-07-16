@@ -2,7 +2,7 @@
 title: "A note on the different London codebar chapters"
 date: 2016-11-27T13:05:13.000Z
 author: "codebar"
-tags: ["learn-to-code", "codebar", "become-a-web-developer", "software-development", "diversity-and-inclusion", "london"]
+tags: ["london", "chapters"]
 summary: "Since it's humble beginnings 3 years ago, codebar London has expanded into the thriving community of learners and coaches we know today with over 2000 people subscribed to our Central London chapter alone."
 original_url: "https://medium.com/the-codelog/a-note-on-the-different-london-codebar-chapters-ad09fd0cce4d"
 ---

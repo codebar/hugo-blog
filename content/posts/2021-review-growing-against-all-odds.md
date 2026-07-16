@@ -2,7 +2,7 @@
 title: "2021 Review: Growing Against All Odds"
 date: 2021-12-17T12:05:48.000Z
 author: "codebar"
-tags: ["learn-to-code", "codebar", "become-a-web-developer", "software-development", "diversity-and-inclusion"]
+tags: ["year-in-review", "community"]
 summary: "This year has taught us that the human spirit is persevering, as it is inspiring. We entered the year with some uncertainty after an eventful 2020..."
 original_url: "https://medium.com/the-codelog/2021-review-growing-against-all-odds-adc0f5e83944"
 ---

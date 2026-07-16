@@ -2,7 +2,7 @@
 title: "Introducing codebar Festival"
 date: 2020-12-11T14:42:19.000Z
 author: "codebar"
-tags: ["learn-to-code", "codebar", "become-a-web-developer", "software-development", "diversity-and-inclusion", "codebar-festival"]
+tags: ["codebar-festival", "learn-to-code", "become-a-web-developer", "software-development", "codebar-festival"]
 summary: "We are extremely excited to announce codebar Festival, a new 3-day 100% virtual event where each day will have a different focus; coding, career, and wellbeing..."
 original_url: "https://medium.com/the-codelog/introducing-codebar-festival-ace0d29c0d3b"
 ---

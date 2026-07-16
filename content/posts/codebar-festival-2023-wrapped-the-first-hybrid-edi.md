@@ -2,7 +2,7 @@
 title: "codebar Festival 2023 Wrapped: The First Hybrid Edition"
 date: 2023-03-29T13:26:32.000Z
 author: "codebar"
-tags: ["learn-to-code", "codebar", "become-a-web-developer", "software-development", "diversity-and-inclusion"]
+tags: ["codebar-festival", "learn-to-code", "become-a-web-developer", "software-development", "diversity-and-inclusion", "events", "networking", "conference"]
 summary: "A group shot from the in-person event on Saturday 11th March Our annual codebar Festival returned earlier this month with some fresh updates to the programme! We saw 700 of our community members come..."
 original_url: "https://medium.com/the-codelog/codebar-festival-2023-wrapped-the-first-hybrid-edition-688d0a18a973?source=rss-cd59c44327ec------2"
 ---
