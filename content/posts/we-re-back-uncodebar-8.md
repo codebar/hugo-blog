@@ -2,8 +2,8 @@
 title: "We’re back — uncodebar 8"
 date: 2022-10-21T09:40:56.000Z
 author: "codebar"
-tags: ["software-development", "diversity-and-inclusion", "codebar", "community", "conference"]
-summary: "We’re back — uncodebar 8 September 2022 saw the return of our annual unconference uncodebar! Group shot from uncodebar. Taken by Eddie Jaoude We were so thrilled to be welcoming our community to the G..."
+tags: ["unconference", "uncodebar", "community"]
+summary: "We’re back — September 2022 saw the return of our annual unconference uncodebar!"
 original_url: "https://medium.com/the-codelog/were-back-uncodebar-8-69a7baecb543?source=rss-cd59c44327ec------2"
 ---
 

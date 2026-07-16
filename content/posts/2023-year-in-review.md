@@ -2,7 +2,7 @@
 title: "2023 Year in Review"
 date: 2024-01-02T15:01:53.000Z
 author: "codebar"
-tags: ["software-engineering", "learning-to-code", "diversity-and-inclusion", "community", "software-development"]
+tags: ["community", "year-in-review"]
 summary: "2023 marked a momentous occasion for codebar as we celebrated our 10th birthday! A decade, aka 3650 days, dedicated to fostering inclusivity and accessibility in tech education. This milestone was a t..."
 original_url: "https://medium.com/the-codelog/2023-year-in-review-9e2ff0d43d4b?source=rss-cd59c44327ec------2"
 ---

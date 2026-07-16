@@ -2,7 +2,7 @@
 title: "ScotlandJS 2016"
 date: 2016-06-13T08:49:58.000Z
 author: "codebar"
-tags: ["learn-to-code", "codebar", "become-a-web-developer", "software-development", "diversity-and-inclusion", "events", "javascript", "conference"]
+tags: ["events", "javascript", "conference", "scotland"]
 summary: "Thursday June 2nd 2016 was a very sunny day, I had definitely overpacked and overdressed. It must've been 20˚C+ and I was in … Edinburgh. I had flown in from London the day before to attend ScotlandJS."
 original_url: "https://medium.com/the-codelog/scotlandjs-c32d8394eb8c"
 ---

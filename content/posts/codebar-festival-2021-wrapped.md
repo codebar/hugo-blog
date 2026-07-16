@@ -2,7 +2,7 @@
 title: "codebar Festival 2021 Wrapped"
 date: 2021-04-22T09:25:10.000Z
 author: "codebar"
-tags: ["learn-to-code", "codebar", "become-a-web-developer", "software-development", "diversity-and-inclusion"]
+tags: ["codebar-festival", "learn-to-code", "become-a-web-developer", "software-development", "diversity-and-inclusion", "events", "networking", "conference"]
 summary: "We can't believe it's been a month since codebar Festival already! HOW! Time really does fly. codebar Festival was our jam-packed, 100% virtual, 3-day event that happened in March..."
 original_url: "https://medium.com/the-codelog/codebar-festival-2021-wrapped-5f54588e8238"
 ---

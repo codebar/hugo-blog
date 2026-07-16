@@ -2,7 +2,7 @@
 title: "Responsive Day Out 3"
 date: 2015-06-26T00:00:00.000Z
 author: "codebar"
-tags: ["learn-to-code", "codebar", "become-a-web-developer", "software-development", "diversity-and-inclusion", "events", "responsive-design", "conference"]
+tags: ["events", "responsive-design", "conference"]
 summary: "Friday 19th June was a brilliant day, partly because of the glorious sunshine and partly because 12 codebar Brighton students spent the day at the 3rd and final Responsive Day Out 'The Final Breakpoint' thanks to ticket giveaways from the lovely people at Clearleft."
 original_url: "https://medium.com/the-codelog/responsive-day-out-3-f572bc8867d"
 ---

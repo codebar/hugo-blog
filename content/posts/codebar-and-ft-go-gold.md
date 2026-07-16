@@ -2,7 +2,7 @@
 title: "codebar and FT go gold!"
 date: 2023-05-22T10:47:38.000Z
 author: "codebar"
-tags: ["diversity-and-inclusion", "diversity-in-tech", "software-development", "community", "learning-to-code"]
+tags: ["corporate-partner", "FT"]
 summary: "The FT, one of the world’s leading news organisations, have been huge supporters of codebar for many years, first hosting one of our workshops all the way back in 2016. And now, we are so excited to r..."
 original_url: "https://medium.com/the-codelog/codebar-and-ft-go-gold-a130178e9a1d?source=rss-cd59c44327ec------2"
 ---

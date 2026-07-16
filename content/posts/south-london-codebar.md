@@ -2,7 +2,7 @@
 title: "South London codebar"
 date: 2016-11-04T10:54:28.000Z
 author: "codebar"
-tags: ["learn-to-code", "codebar", "become-a-web-developer", "software-development", "diversity-and-inclusion", "london"]
+tags: ["chapters", "south-london"]
 summary: "Last Wednesday saw 24 students and 12 coaches attend the first ever South London codebar at Pact Coffee HQ."
 original_url: "https://medium.com/the-codelog/south-london-codebar-f82beece5ddc"
 ---

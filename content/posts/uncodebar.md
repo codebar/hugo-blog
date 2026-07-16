@@ -3,10 +3,8 @@ title: "uncodebar, a codebar unconference"
 date: 2015-10-18T20:44:35Z
 comments: true
 author: Kriszta Matyi
-author_email: matyi.kriszta@gmail.com
-tags: ["unconference", "codebar", "coaches"]
-tweet_message: "Quick recap of :title on the :username blog #uncodebar :url"
-summary: "A day dedicated to our coaches: talks on D3.js, Docker, regex, and even Taylor Swift Driven Development. Community-driven learning at its best."
+tags: ["unconference", "uncodebar", "codebar", "events"]
+summary: "A day dedicated to our community: talks on D3.js, Docker, regex, and even Taylor Swift Driven Development. Community-driven learning at its best."
 ---
 
 Here at codebar we run over a hundred workshops a year for people underrepresented in the tech industry - 52 in our Central London chapter alone. All this is possible thanks to our dedicated coaches who volunteer their free time to come and teach our students week after week. While codebar is all about the students, we wanted to acknowledge the hard work our coaches put into codebar to make it as successful as it is. 

@@ -2,7 +2,7 @@
 title: "10 years of uncodebar!"
 date: 2024-09-26T13:36:15.000Z
 author: "codebar"
-tags: ["community", "diveristy-and-inclusion", "conference", "diversity-in-tech", "barcode"]
+tags: ["conference", "uncodebar", "community"]
 summary: "Earlier this month the codebar community gathered at Google’s stunning Pancras Square office for the 10th annual uncodebar unconference. uncodebar is our annual unconference that brings the codebar co..."
 original_url: "https://medium.com/the-codelog/10-years-of-uncodebar-c11194fdba9e?source=rss-cd59c44327ec------2"
 ---

@@ -4,7 +4,7 @@ date: 2015-06-30T00:00:00Z
 comments: true
 author: Kimberley Cook, Kriszta Matyi
 author_email: kimberleycook91@gmail.com, matyi.kriszta@gmail.com
-tags: ["codebar", "south-london", "west-london", "london"]
+tags: ["chapters", "south-london", "west-london", "london"]
 summary: "London expands to three chapters: Central, South, and now West London. More workshops to make learning to code accessible across the city."
 ---
 

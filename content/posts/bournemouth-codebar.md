@@ -4,7 +4,7 @@ date: 2015-09-08T21:05:25Z
 comments: true
 author: Kimberley Cook
 author_email: kimberleycook91@gmail.com
-tags: ["bournemouth"]
+tags: ["bournemouth", "chapters", "UK"]
 summary: "Announcing our new Bournemouth chapter: a vibrant tech scene meets a beautiful beach. First workshop on October 13th at Folk."
 ---
 

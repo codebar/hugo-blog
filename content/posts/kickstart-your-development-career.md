@@ -2,7 +2,7 @@
 title: "Kickstart Your Development Career"
 date: 2015-03-26T00:00:00.000Z
 author: "codebar"
-tags: ["learn-to-code", "codebar", "become-a-web-developer", "software-development", "diversity-and-inclusion", "career", "events"]
+tags: ["corporate-partner", "learn-to-code", "become-a-web-developer", "career", "events"]
 summary: "On the 16th of March 2015 a small group of aspiring developers came together at the GoCardless offices in London for an evening event on how to Kickstart Your Development Career."
 original_url: "https://medium.com/the-codelog/kickstart-your-development-career-9dddd0e479cf"
 ---
