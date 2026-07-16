@@ -158,7 +158,7 @@ If you find a bug or have a feature request, please open an issue on GitHub. Inc
 - Expected vs actual behavior
 - Screenshots if applicable
 
-7. **Content suggestions** 
+## Content suggestions 
 
 We would love to have members of our community contribute to the blog. Please find below some ideas/suggestions:
 
