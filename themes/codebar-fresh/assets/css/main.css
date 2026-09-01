@@ -147,6 +147,8 @@ h3 {
 
 h4 {
   font-size: var(--text-xl);
+  margin-bottom: 10px;
+  margin-top: 25px;
 }
 
 p {
