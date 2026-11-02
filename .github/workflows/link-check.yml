@@ -31,10 +31,27 @@ jobs:
           # Output file path
           output: lychee/out.md
 
-      - name: Create Issue From File
+      - name: Create or update issue
         if: steps.lychee.outputs.exit_code != 0
-        uses: peter-evans/create-issue-from-file@e8ef132d6df98ed982188e460ebb3b5d4ef3a9cd # v5
-        with:
-          title: Link Checker Report
-          content-filepath: ./lychee/out.md
-          labels: report, automated issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          errors_now=$(grep '^\* \[' lychee/out.md | grep -v '\[200\]' | sort)
+          existing=$(gh issue list --label report --state open --json number --jq '.[0].number // empty')
+          if [ -n "$existing" ] && gh issue view "$existing" --json body -q .body | grep '^\* \[' | grep -v '\[200\]' | sort | diff - <(printf '%s\n' "$errors_now") >/dev/null; then
+            exit 0  # same broken links as the open issue, nothing to report
+          fi
+          if [ -n "$existing" ]; then
+            gh issue edit "$existing" --body-file lychee/out.md
+          else
+            gh issue create --title 'Link Checker Report' --body-file lychee/out.md \
+              --label report --label 'automated issue'
+          fi
+
+      - name: Close stale issue
+        if: steps.lychee.outputs.exit_code == 0
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          existing=$(gh issue list --label report --state open --json number --jq '.[0].number // empty')
+          [ -z "$existing" ] || gh issue close "$existing" --comment 'All links OK.'
