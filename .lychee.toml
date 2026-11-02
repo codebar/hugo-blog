@@ -24,6 +24,8 @@ exclude = [
     "codebar.io/geneva",
     "codebar.io/drammen",
     "codebar.io/south-london",
+    "codebar.io/paris",
+    "codebar.io/winnipeg",
     # Dead external sites
     "hopin.com/events/codebar-job-fair-2023",
     "khan.github.io/tota11y",
@@ -43,18 +45,22 @@ exclude = [
     "goldblumsimulator2017.glitch.me",
     "pointsoflight.gov.uk",
     "codersofcolour.org",
+    "redevelop.io",
+    "trans-code.org",
     # Squatted domains (redirect to spam)
     "thenetawards.com",
     "happybearsoftware.com",
     # Intermittent Medium cross-posts (403/410)
     "medium.com/the-codelog",
     # Temporarily down/unreachable sites
+    "2015.bathruby.org",
     "codebar-slack.herokuapp.com",
     "donate.codebar.io",
     "impact-report-22.codebar.io",
     "codefirstgirls.org.uk",
     "euruko2015.org",
     "oxfordcc.co.uk",
+    "infinityworks.com",
     # Malformed/old blog links
     "blog.codebar.io/2016/01/12/year-in-review-2015/2015.bathruby.org",
     # LinkedIn blocks crawlers (returns 999 or 404)
