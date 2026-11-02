@@ -51,6 +51,7 @@ exclude = [
     # Intermittent Medium cross-posts (403/410)
     "medium.com/the-codelog",
     # Temporarily down/unreachable sites
+    "2015.bathruby.org",
     "codebar-slack.herokuapp.com",
     "donate.codebar.io",
     "impact-report-22.codebar.io",
