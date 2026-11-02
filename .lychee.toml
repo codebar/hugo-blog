@@ -46,6 +46,7 @@ exclude = [
     "pointsoflight.gov.uk",
     "codersofcolour.org",
     "redevelop.io",
+    "trans-code.org",
     # Squatted domains (redirect to spam)
     "thenetawards.com",
     "happybearsoftware.com",
