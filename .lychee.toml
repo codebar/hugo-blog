@@ -24,6 +24,8 @@ exclude = [
     "codebar.io/geneva",
     "codebar.io/drammen",
     "codebar.io/south-london",
+    "codebar.io/paris",
+    "codebar.io/winnipeg",
     # Dead external sites
     "hopin.com/events/codebar-job-fair-2023",
     "khan.github.io/tota11y",
